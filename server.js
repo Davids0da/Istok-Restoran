@@ -12,7 +12,7 @@ app.use('/fonts/', express.static(path.join(__dirname, '/node_modules/bootstrap/
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname + '/index.html'));
 });
-
-app.listen(3000, function () {
-  console.log('Listening on port 3000!')
+var port = 5000;
+app.listen(port, function () {
+  console.log('Listening on port:' + port + '!')
 });
