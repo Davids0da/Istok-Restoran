@@ -18,9 +18,9 @@ body {
 }
 
 #logo { 
-    margin: 100px auto 0;
-  width: 300px;
-    height: 300px;
+    margin: 70px auto 0;
+  width: 40%;
+    
     -webkit-transform-origin: 50% 0;
     transform-origin: 50% 0;
     -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6, p ,a{
     margin-top: 180px;
 }
 .headertext2 {
-    margin-top: 160px;
+    margin-top: 100px;
 }
 .footertext {
     margin-top: 150px;
@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6, p ,a{
 .navbar {
 	margin-top: 100px;
 	color: #ffffff;
-	font-size: 30px;
+	font-size: 25px ;
     
 }
 
@@ -101,7 +101,7 @@ h1, h2, h3, h4, h5, h6, p ,a{
     margin-top: 100px;
 }
 #istoktextsize {
-    font-size: 100px;
+    font-size: 70px;
 }
 #spoonvertical {
     margin: 120px auto 0;
@@ -124,7 +124,7 @@ h1, h2, h3, h4, h5, h6, p ,a{
 }
 
 .navbar a:hover {
-    font-size: 50px;
+    font-size: 120%;
     text-decoration: none;
 }
 
@@ -203,7 +203,7 @@ header {
 section {
     margin-left: 30px;
     margin-right: 30px;
-    margin-top:30px;
+    
 }
 
 #contact { 
@@ -211,5 +211,45 @@ section {
 }
 
 body {
-     background:url('../images/background5.jpg') no-repeat fixed 50% 50%;
+     background:url('../images/background5.png') repeat fixed;
+     
+}
+
+@media screen and (max-width: 990px) {
+    body {
+       
+    }
+}
+
+#empty-space {
+       top: 0;
+    width: 100%;
+    height: 30px;
+    background: transparent;
+    position: fixed;
+    text-align: center;
+    z-index: 999 !important;
+}
+
+.full-height { 
+    border-top:30px;
+}
+
+#empty-space {
+     background:url('../images/background5.png') repeat fixed;
+      position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: 30px;
+}
+#empty-space-btm {
+     background:url('../images/background5.png') repeat fixed;
+      position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: 30px;
 }
