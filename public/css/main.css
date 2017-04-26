@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5, h6, p ,a{
     margin-top: 100px;
 }
 .footertext {
-    margin-top: 150px;
+    margin-top: 120px;
 }
 .navbar {
 	margin-top: 100px;
@@ -146,7 +146,7 @@ h1, h2, h3, h4, h5, h6, p ,a{
 }
 
 #contact {
-    background:url('../images/background1.jpg') no-repeat center center;
+    background:url('../images/background6.jpg') no-repeat center center;
     background-size: cover;
      background-attachment: fixed;
     background-position: center;

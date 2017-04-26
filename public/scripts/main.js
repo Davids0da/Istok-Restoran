@@ -180,7 +180,25 @@ function initMap() {
       color: 'white'
     },
   });
-}
+   var contentString = 
+            '<div id="bodyContent">'+
+            '<b>Gospodar Jevremova 50,</b> ' +
+             '<b>11000 Beograd,</b> ' +
+              '<b>Srbija</b> ' +
+            '</div>';
+
+var infowindow = new google.maps.InfoWindow({
+          content: contentString
+        });
+        
+ marker.addListener('click', function() {
+          infowindow.open(map, marker);
+        });
+        $(document).ready(function () {
+             infowindow.open(map, marker);
+        });
+};
+
 
 $(document).ready(() => {
   $('.navbar a,#linebreak a').click(function(e){
