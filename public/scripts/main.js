@@ -199,6 +199,9 @@ var infowindow = new google.maps.InfoWindow({
         });
 };
 
+$(document).ready(function(){
+    $("#header").fadeIn(3000);
+});
 
 $(document).ready(() => {
   $('.navbar a,#linebreak a').click(function(e){
@@ -209,3 +212,22 @@ $(document).ready(() => {
     });
 });
 
+var tooltips = document.querySelectorAll('#tooltip span');
+
+var tooltips1 = document.querySelectorAll('#tooltip1 span');
+
+window.onmousemove = function (e) {
+    var x = (e.clientX + 20) + 'px',
+        y = (e.clientY + 20) + 'px';
+        z = (e.clientX - 620) + 'px',
+        f = (e.clientY + 20) + 'px';
+        
+    for (var i = 0; i <  tooltips.length ; i++) {
+        tooltips1[i].style.top = y;
+        tooltips1[i].style.left = x;  
+    };     
+    for (var i = 0; i < tooltips1.length  ; i++) {
+        tooltips[i].style.top = f;
+        tooltips[i].style.left = z;
+    }
+}; 

@@ -86,7 +86,11 @@ h1, h2, h3, h4, h5, h6, p ,a{
 #background3 {
     background:url('../images/background2.jpg') no-repeat center center;
     background-size: cover;
-    
+}
+#meni {
+    background-color: black;
+    background-size: cover;
+    overflow: hidden;
 }
 #about{
     background:url('../images/background3.jpg') no-repeat center center;
@@ -142,7 +146,7 @@ h1, h2, h3, h4, h5, h6, p ,a{
     text-decoration: none;
 }
 #map {
-    height: 50vh;
+    height: 400px;
 }
 
 #contact {
@@ -154,10 +158,13 @@ h1, h2, h3, h4, h5, h6, p ,a{
     background-size: cover;
 }
 .full-height{
-    height: 100vh;
+    height: 800px;
+}
+.full-height-2 {
+    height: 1400px;
 }
 .half-height{
-    height: 50vh;
+    height: 400px;
 }
 
 #footertext {
@@ -178,8 +185,8 @@ h1, h2, h3, h4, h5, h6, p ,a{
 
 
 .social-icons img:hover {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
 }
 
 @media screen and (max-width: 768px){
@@ -219,9 +226,7 @@ section, .menu {
     
 }
 
-#contact { 
-    margin-bottom: 30px;
-}
+
 
 body {
      background:url('../images/background5.png') repeat fixed;
@@ -262,7 +267,7 @@ body {
       position: fixed;
   bottom: 0;
   left: 0;
-  z-index: 999;
+  z-index: 1000;
   width: 100%;
   height: 30px;
 }
@@ -273,3 +278,48 @@ body {
     opacity: 0.9;
 }
 
+.header {
+    display: none;
+}
+
+#tooltip {
+    text-decoration:none;
+    position:relative;
+}
+#tooltip span {
+    display:none;
+}
+#tooltip:hover span {
+    display:block;
+    position:fixed;
+    overflow:hidden;
+      z-index:1000;
+      cursor: pointer;
+}
+
+.menu-row {
+    margin-top: 80px;
+}
+
+.description {
+    opacity: 0.5;
+    font-style: italic;
+}
+
+#price {
+    text-align: right;
+}
+
+#tooltip1 {
+    text-decoration:none;
+    position:relative;
+}
+#tooltip1 span {
+    display:none;
+}
+#tooltip1:hover span {
+    display:block;
+    position:fixed;
+    overflow:hidden;
+      z-index:1000;
+}
