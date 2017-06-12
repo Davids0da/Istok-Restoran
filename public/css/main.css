@@ -11,7 +11,7 @@
         height: 100%;
         left: 30px;
         right: 30px;
-        background:url('../images/background7.png') no-repeat center center;
+        background:url('../images/background7.jpg') no-repeat center center;
         background-size: cover;
         z-index: 999;
         -webkit-transform: translateX(0);  /* Chrome, Opera 15+, Safari 3.1+ */
