@@ -1,5 +1,8 @@
-$('body').ready(function(){
-  $('body').addClass('loaded');
+$(document).ready(function () {
+  setTimeout(function (){
+$('body').addClass('loaded');
+  $('h1').css('color', '#ffffff')
+}, 4000); 
 });
 
 function initMap() {
@@ -217,7 +220,7 @@ $(document).ready(() => {
 });
 
 
- 
+
 
 
 
@@ -258,23 +261,23 @@ var tooltips33 = document.querySelectorAll('#tooltip33 span');
 
 
 window.onmousemove = function (e) {
-    // prva
-   var currentPosition = $('#tooltip').offset().top;
+  // prva
+  var currentPosition = $('#tooltip').offset().top;
 
-   var topYOffset = pageYOffset;
-   var bottomYOffset = pageYOffset + $(window).height();
+  var topYOffset = pageYOffset;
+  var bottomYOffset = pageYOffset + $(window).height();
 
-   var top = currentPosition - topYOffset;
-   var bottom = bottomYOffset - currentPosition;
+  var top = currentPosition - topYOffset;
+  var bottom = bottomYOffset - currentPosition;
 
- if (top > bottom) {
- var x = (e.clientX + 20) + 'px',
-    y = (e.clientY - 200) + 'px';
- }
- else {
+  if (top > bottom) {
     var x = (e.clientX + 20) + 'px',
-    y = (e.clientY + 20) + 'px';
- }
+      y = (e.clientY - 200) + 'px';
+  }
+  else {
+    var x = (e.clientX + 20) + 'px',
+      y = (e.clientY + 20) + 'px';
+  }
   for (var i = 0; i < tooltips.length; i++) {
     tooltips[i].style.top = y;
     tooltips[i].style.left = x;
@@ -283,674 +286,674 @@ window.onmousemove = function (e) {
   // druga
 
 
-   var currentPosition = $('#tooltip1').offset().top;
+  var currentPosition = $('#tooltip1').offset().top;
 
-   var topYOffset = pageYOffset;
-   var bottomYOffset = pageYOffset + $(window).height();
+  var topYOffset = pageYOffset;
+  var bottomYOffset = pageYOffset + $(window).height();
 
-   var top = currentPosition - topYOffset;
-   var bottom = bottomYOffset - currentPosition;
+  var top = currentPosition - topYOffset;
+  var bottom = bottomYOffset - currentPosition;
 
- if (top > bottom) {
- var x = (e.clientX + 20) + 'px',
-    y = (e.clientY - 200) + 'px';
- }
- else {
+  if (top > bottom) {
     var x = (e.clientX + 20) + 'px',
-    y = (e.clientY + 20) + 'px';
- }
+      y = (e.clientY - 200) + 'px';
+  }
+  else {
+    var x = (e.clientX + 20) + 'px',
+      y = (e.clientY + 20) + 'px';
+  }
   for (var i = 0; i < tooltips1.length; i++) {
     tooltips1[i].style.top = y;
     tooltips1[i].style.left = x;
   };
 
-    // treca
-   var currentPosition = $('#tooltip2').offset().top;
+  // treca
+  var currentPosition = $('#tooltip2').offset().top;
 
-   var topYOffset = pageYOffset;
-   var bottomYOffset = pageYOffset + $(window).height();
+  var topYOffset = pageYOffset;
+  var bottomYOffset = pageYOffset + $(window).height();
 
-   var top = currentPosition - topYOffset;
-   var bottom = bottomYOffset - currentPosition;
+  var top = currentPosition - topYOffset;
+  var bottom = bottomYOffset - currentPosition;
 
- if (top > bottom) {
- var x = (e.clientX + 20) + 'px',
-    y = (e.clientY - 200) + 'px';
- }
- else {
+  if (top > bottom) {
     var x = (e.clientX + 20) + 'px',
-    y = (e.clientY + 20) + 'px';
- }
+      y = (e.clientY - 200) + 'px';
+  }
+  else {
+    var x = (e.clientX + 20) + 'px',
+      y = (e.clientY + 20) + 'px';
+  }
   for (var i = 0; i < tooltips2.length; i++) {
     tooltips2[i].style.top = y;
     tooltips2[i].style.left = x;
   };
-      // cetvrta
-         var currentPosition = $('#tooltip3').offset().top;
+  // cetvrta
+  var currentPosition = $('#tooltip3').offset().top;
 
-   var topYOffset = pageYOffset;
-   var bottomYOffset = pageYOffset + $(window).height();
+  var topYOffset = pageYOffset;
+  var bottomYOffset = pageYOffset + $(window).height();
 
-   var top = currentPosition - topYOffset;
-   var bottom = bottomYOffset - currentPosition;
+  var top = currentPosition - topYOffset;
+  var bottom = bottomYOffset - currentPosition;
 
- if (top > bottom) {
- var x = (e.clientX + 20) + 'px',
-    y = (e.clientY - 200) + 'px';
- }
- else {
+  if (top > bottom) {
     var x = (e.clientX + 20) + 'px',
-    y = (e.clientY + 20) + 'px';
- }
+      y = (e.clientY - 200) + 'px';
+  }
+  else {
+    var x = (e.clientX + 20) + 'px',
+      y = (e.clientY + 20) + 'px';
+  }
   for (var i = 0; i < tooltips3.length; i++) {
     tooltips3[i].style.top = y;
     tooltips3[i].style.left = x;
   };
-        // peta
-               var currentPosition = $('#tooltip4').offset().top;
+  // peta
+  var currentPosition = $('#tooltip4').offset().top;
 
-   var topYOffset = pageYOffset;
-   var bottomYOffset = pageYOffset + $(window).height();
+  var topYOffset = pageYOffset;
+  var bottomYOffset = pageYOffset + $(window).height();
 
-   var top = currentPosition - topYOffset;
-   var bottom = bottomYOffset - currentPosition;
+  var top = currentPosition - topYOffset;
+  var bottom = bottomYOffset - currentPosition;
 
- if (top > bottom) {
- var x = (e.clientX + 20) + 'px',
-    y = (e.clientY - 200) + 'px';
- }
- else {
+  if (top > bottom) {
     var x = (e.clientX + 20) + 'px',
-    y = (e.clientY + 20) + 'px';
- }
+      y = (e.clientY - 200) + 'px';
+  }
+  else {
+    var x = (e.clientX + 20) + 'px',
+      y = (e.clientY + 20) + 'px';
+  }
   for (var i = 0; i < tooltips4.length; i++) {
     tooltips4[i].style.top = y;
     tooltips4[i].style.left = x;
   };
-          // sesta
-                 var currentPosition = $('#tooltip5').offset().top;
+  // sesta
+  var currentPosition = $('#tooltip5').offset().top;
 
-   var topYOffset = pageYOffset;
-   var bottomYOffset = pageYOffset + $(window).height();
+  var topYOffset = pageYOffset;
+  var bottomYOffset = pageYOffset + $(window).height();
 
-   var top = currentPosition - topYOffset;
-   var bottom = bottomYOffset - currentPosition;
+  var top = currentPosition - topYOffset;
+  var bottom = bottomYOffset - currentPosition;
 
- if (top > bottom) {
- var x = (e.clientX + 20) + 'px',
-    y = (e.clientY - 200) + 'px';
- }
- else {
+  if (top > bottom) {
     var x = (e.clientX + 20) + 'px',
-    y = (e.clientY + 20) + 'px';
- }
+      y = (e.clientY - 200) + 'px';
+  }
+  else {
+    var x = (e.clientX + 20) + 'px',
+      y = (e.clientY + 20) + 'px';
+  }
   for (var i = 0; i < tooltips5.length; i++) {
     tooltips5[i].style.top = y;
     tooltips5[i].style.left = x;
   };
-            // sedma
-                   var currentPosition = $('#tooltip6').offset().top;
+  // sedma
+  var currentPosition = $('#tooltip6').offset().top;
 
-   var topYOffset = pageYOffset;
-   var bottomYOffset = pageYOffset + $(window).height();
+  var topYOffset = pageYOffset;
+  var bottomYOffset = pageYOffset + $(window).height();
 
-   var top = currentPosition - topYOffset;
-   var bottom = bottomYOffset - currentPosition;
+  var top = currentPosition - topYOffset;
+  var bottom = bottomYOffset - currentPosition;
 
- if (top > bottom) {
- var x = (e.clientX + 20) + 'px',
-    y = (e.clientY - 200) + 'px';
- }
- else {
+  if (top > bottom) {
     var x = (e.clientX + 20) + 'px',
-    y = (e.clientY + 20) + 'px';
- }
+      y = (e.clientY - 200) + 'px';
+  }
+  else {
+    var x = (e.clientX + 20) + 'px',
+      y = (e.clientY + 20) + 'px';
+  }
   for (var i = 0; i < tooltips6.length; i++) {
     tooltips6[i].style.top = y;
     tooltips6[i].style.left = x;
   };
-              // osma
-                     var currentPosition = $('#tooltip7').offset().top;
+  // osma
+  var currentPosition = $('#tooltip7').offset().top;
 
-   var topYOffset = pageYOffset;
-   var bottomYOffset = pageYOffset + $(window).height();
+  var topYOffset = pageYOffset;
+  var bottomYOffset = pageYOffset + $(window).height();
 
-   var top = currentPosition - topYOffset;
-   var bottom = bottomYOffset - currentPosition;
+  var top = currentPosition - topYOffset;
+  var bottom = bottomYOffset - currentPosition;
 
- if (top > bottom) {
- var x = (e.clientX + 20) + 'px',
-    y = (e.clientY - 200) + 'px';
- }
- else {
+  if (top > bottom) {
     var x = (e.clientX + 20) + 'px',
-    y = (e.clientY + 20) + 'px';
- }
+      y = (e.clientY - 200) + 'px';
+  }
+  else {
+    var x = (e.clientX + 20) + 'px',
+      y = (e.clientY + 20) + 'px';
+  }
   for (var i = 0; i < tooltips7.length; i++) {
     tooltips7[i].style.top = y;
     tooltips7[i].style.left = x;
   };
-                // deveta
-                       var currentPosition = $('#tooltip8').offset().top;
+  // deveta
+  var currentPosition = $('#tooltip8').offset().top;
 
-   var topYOffset = pageYOffset;
-   var bottomYOffset = pageYOffset + $(window).height();
+  var topYOffset = pageYOffset;
+  var bottomYOffset = pageYOffset + $(window).height();
 
-   var top = currentPosition - topYOffset;
-   var bottom = bottomYOffset - currentPosition;
+  var top = currentPosition - topYOffset;
+  var bottom = bottomYOffset - currentPosition;
 
- if (top > bottom) {
- var x = (e.clientX + 20) + 'px',
-    y = (e.clientY - 200) + 'px';
- }
- else {
+  if (top > bottom) {
     var x = (e.clientX + 20) + 'px',
-    y = (e.clientY + 20) + 'px';
- }
+      y = (e.clientY - 200) + 'px';
+  }
+  else {
+    var x = (e.clientX + 20) + 'px',
+      y = (e.clientY + 20) + 'px';
+  }
   for (var i = 0; i < tooltips8.length; i++) {
     tooltips8[i].style.top = y;
     tooltips8[i].style.left = x;
   };
-                  // deseta
-                         var currentPosition = $('#tooltip9').offset().top;
+  // deseta
+  var currentPosition = $('#tooltip9').offset().top;
 
-   var topYOffset = pageYOffset;
-   var bottomYOffset = pageYOffset + $(window).height();
+  var topYOffset = pageYOffset;
+  var bottomYOffset = pageYOffset + $(window).height();
 
-   var top = currentPosition - topYOffset;
-   var bottom = bottomYOffset - currentPosition;
+  var top = currentPosition - topYOffset;
+  var bottom = bottomYOffset - currentPosition;
 
- if (top > bottom) {
- var x = (e.clientX + 20) + 'px',
-    y = (e.clientY - 200) + 'px';
- }
- else {
+  if (top > bottom) {
     var x = (e.clientX + 20) + 'px',
-    y = (e.clientY + 20) + 'px';
- }
+      y = (e.clientY - 200) + 'px';
+  }
+  else {
+    var x = (e.clientX + 20) + 'px',
+      y = (e.clientY + 20) + 'px';
+  }
   for (var i = 0; i < tooltips9.length; i++) {
     tooltips9[i].style.top = y;
     tooltips9[i].style.left = x;
   };
-                    // jedanaesta
-                           var currentPosition = $('#tooltip10').offset().top;
+  // jedanaesta
+  var currentPosition = $('#tooltip10').offset().top;
 
-   var topYOffset = pageYOffset;
-   var bottomYOffset = pageYOffset + $(window).height();
+  var topYOffset = pageYOffset;
+  var bottomYOffset = pageYOffset + $(window).height();
 
-   var top = currentPosition - topYOffset;
-   var bottom = bottomYOffset - currentPosition;
+  var top = currentPosition - topYOffset;
+  var bottom = bottomYOffset - currentPosition;
 
- if (top > bottom) {
- var x = (e.clientX + 20) + 'px',
-    y = (e.clientY - 200) + 'px';
- }
- else {
+  if (top > bottom) {
     var x = (e.clientX + 20) + 'px',
-    y = (e.clientY + 20) + 'px';
- }
+      y = (e.clientY - 200) + 'px';
+  }
+  else {
+    var x = (e.clientX + 20) + 'px',
+      y = (e.clientY + 20) + 'px';
+  }
   for (var i = 0; i < tooltips10.length; i++) {
     tooltips10[i].style.top = y;
     tooltips10[i].style.left = x;
   };
-                        // dvanaesta
-                               var currentPosition = $('#tooltip11').offset().top;
+  // dvanaesta
+  var currentPosition = $('#tooltip11').offset().top;
 
-   var topYOffset = pageYOffset;
-   var bottomYOffset = pageYOffset + $(window).height();
+  var topYOffset = pageYOffset;
+  var bottomYOffset = pageYOffset + $(window).height();
 
-   var top = currentPosition - topYOffset;
-   var bottom = bottomYOffset - currentPosition;
+  var top = currentPosition - topYOffset;
+  var bottom = bottomYOffset - currentPosition;
 
- if (top > bottom) {
- var x = (e.clientX + 20) + 'px',
-    y = (e.clientY - 200) + 'px';
- }
- else {
+  if (top > bottom) {
     var x = (e.clientX + 20) + 'px',
-    y = (e.clientY + 20) + 'px';
- }
+      y = (e.clientY - 200) + 'px';
+  }
+  else {
+    var x = (e.clientX + 20) + 'px',
+      y = (e.clientY + 20) + 'px';
+  }
   for (var i = 0; i < tooltips11.length; i++) {
     tooltips11[i].style.top = y;
     tooltips11[i].style.left = x;
   };
-                            // trinaesta
-                                   var currentPosition = $('#tooltip12').offset().top;
+  // trinaesta
+  var currentPosition = $('#tooltip12').offset().top;
 
-   var topYOffset = pageYOffset;
-   var bottomYOffset = pageYOffset + $(window).height();
+  var topYOffset = pageYOffset;
+  var bottomYOffset = pageYOffset + $(window).height();
 
-   var top = currentPosition - topYOffset;
-   var bottom = bottomYOffset - currentPosition;
+  var top = currentPosition - topYOffset;
+  var bottom = bottomYOffset - currentPosition;
 
- if (top > bottom) {
- var x = (e.clientX - 620) + 'px',
-    y = (e.clientY - 420) + 'px';
- }
- else {
+  if (top > bottom) {
     var x = (e.clientX - 620) + 'px',
-    y = (e.clientY + 20) + 'px';
- }
+      y = (e.clientY - 420) + 'px';
+  }
+  else {
+    var x = (e.clientX - 620) + 'px',
+      y = (e.clientY + 20) + 'px';
+  }
   for (var i = 0; i < tooltips12.length; i++) {
     tooltips12[i].style.top = y;
     tooltips12[i].style.left = x;
   };
-                                // cetrnaaesta
-                                       var currentPosition = $('#tooltip13').offset().top;
+  // cetrnaaesta
+  var currentPosition = $('#tooltip13').offset().top;
 
-   var topYOffset = pageYOffset;
-   var bottomYOffset = pageYOffset + $(window).height();
+  var topYOffset = pageYOffset;
+  var bottomYOffset = pageYOffset + $(window).height();
 
-   var top = currentPosition - topYOffset;
-   var bottom = bottomYOffset - currentPosition;
+  var top = currentPosition - topYOffset;
+  var bottom = bottomYOffset - currentPosition;
 
- if (top > bottom) {
- var x = (e.clientX + 20) + 'px',
-    y = (e.clientY - 200) + 'px';
- }
- else {
+  if (top > bottom) {
     var x = (e.clientX + 20) + 'px',
-    y = (e.clientY + 20) + 'px';
- }
+      y = (e.clientY - 200) + 'px';
+  }
+  else {
+    var x = (e.clientX + 20) + 'px',
+      y = (e.clientY + 20) + 'px';
+  }
   for (var i = 0; i < tooltips13.length; i++) {
     tooltips13[i].style.top = y;
     tooltips13[i].style.left = x;
   };
-                                    // petnaesta
-                                           var currentPosition = $('#tooltip14').offset().top;
+  // petnaesta
+  var currentPosition = $('#tooltip14').offset().top;
 
-   var topYOffset = pageYOffset;
-   var bottomYOffset = pageYOffset + $(window).height();
+  var topYOffset = pageYOffset;
+  var bottomYOffset = pageYOffset + $(window).height();
 
-   var top = currentPosition - topYOffset;
-   var bottom = bottomYOffset - currentPosition;
+  var top = currentPosition - topYOffset;
+  var bottom = bottomYOffset - currentPosition;
 
- if (top > bottom) {
- var x = (e.clientX + 20) + 'px',
-    y = (e.clientY - 200) + 'px';
- }
- else {
+  if (top > bottom) {
     var x = (e.clientX + 20) + 'px',
-    y = (e.clientY + 20) + 'px';
- }
+      y = (e.clientY - 200) + 'px';
+  }
+  else {
+    var x = (e.clientX + 20) + 'px',
+      y = (e.clientY + 20) + 'px';
+  }
   for (var i = 0; i < tooltips14.length; i++) {
     tooltips14[i].style.top = y;
     tooltips14[i].style.left = x;
   };
-                                        // sesneasta
-                                               var currentPosition = $('#tooltip15').offset().top;
+  // sesneasta
+  var currentPosition = $('#tooltip15').offset().top;
 
-   var topYOffset = pageYOffset;
-   var bottomYOffset = pageYOffset + $(window).height();
+  var topYOffset = pageYOffset;
+  var bottomYOffset = pageYOffset + $(window).height();
 
-   var top = currentPosition - topYOffset;
-   var bottom = bottomYOffset - currentPosition;
+  var top = currentPosition - topYOffset;
+  var bottom = bottomYOffset - currentPosition;
 
- if (top > bottom) {
- var x = (e.clientX + 20) + 'px',
-    y = (e.clientY - 200) + 'px';
- }
- else {
+  if (top > bottom) {
     var x = (e.clientX + 20) + 'px',
-    y = (e.clientY + 20) + 'px';
- }
+      y = (e.clientY - 200) + 'px';
+  }
+  else {
+    var x = (e.clientX + 20) + 'px',
+      y = (e.clientY + 20) + 'px';
+  }
   for (var i = 0; i < tooltips3.length; i++) {
     tooltips15[i].style.top = y;
     tooltips15[i].style.left = x;
   };
-                                            // sedamnaesta
-                                                   var currentPosition = $('#tooltip16').offset().top;
+  // sedamnaesta
+  var currentPosition = $('#tooltip16').offset().top;
 
-   var topYOffset = pageYOffset;
-   var bottomYOffset = pageYOffset + $(window).height();
+  var topYOffset = pageYOffset;
+  var bottomYOffset = pageYOffset + $(window).height();
 
-   var top = currentPosition - topYOffset;
-   var bottom = bottomYOffset - currentPosition;
+  var top = currentPosition - topYOffset;
+  var bottom = bottomYOffset - currentPosition;
 
- if (top > bottom) {
- var x = (e.clientX + 20) + 'px',
-    y = (e.clientY - 200) + 'px';
- }
- else {
+  if (top > bottom) {
     var x = (e.clientX + 20) + 'px',
-    y = (e.clientY + 20) + 'px';
- }
+      y = (e.clientY - 200) + 'px';
+  }
+  else {
+    var x = (e.clientX + 20) + 'px',
+      y = (e.clientY + 20) + 'px';
+  }
   for (var i = 0; i < tooltips16.length; i++) {
     tooltips16[i].style.top = y;
     tooltips16[i].style.left = x;
   };
-                                                // osamneastea
-                                                       var currentPosition = $('#tooltip17').offset().top;
+  // osamneastea
+  var currentPosition = $('#tooltip17').offset().top;
 
-   var topYOffset = pageYOffset;
-   var bottomYOffset = pageYOffset + $(window).height();
+  var topYOffset = pageYOffset;
+  var bottomYOffset = pageYOffset + $(window).height();
 
-   var top = currentPosition - topYOffset;
-   var bottom = bottomYOffset - currentPosition;
+  var top = currentPosition - topYOffset;
+  var bottom = bottomYOffset - currentPosition;
 
- if (top > bottom) {
- var x = (e.clientX + 20) + 'px',
-    y = (e.clientY - 200) + 'px';
- }
- else {
+  if (top > bottom) {
     var x = (e.clientX + 20) + 'px',
-    y = (e.clientY + 20) + 'px';
- }
+      y = (e.clientY - 200) + 'px';
+  }
+  else {
+    var x = (e.clientX + 20) + 'px',
+      y = (e.clientY + 20) + 'px';
+  }
   for (var i = 0; i < tooltips17.length; i++) {
     tooltips17[i].style.top = y;
     tooltips17[i].style.left = x;
   };
-                                                    // devetnaesta
-                                                           var currentPosition = $('#tooltip18').offset().top;
+  // devetnaesta
+  var currentPosition = $('#tooltip18').offset().top;
 
-   var topYOffset = pageYOffset;
-   var bottomYOffset = pageYOffset + $(window).height();
+  var topYOffset = pageYOffset;
+  var bottomYOffset = pageYOffset + $(window).height();
 
-   var top = currentPosition - topYOffset;
-   var bottom = bottomYOffset - currentPosition;
+  var top = currentPosition - topYOffset;
+  var bottom = bottomYOffset - currentPosition;
 
- if (top > bottom) {
- var x = (e.clientX + 20) + 'px',
-    y = (e.clientY - 200) + 'px';
- }
- else {
+  if (top > bottom) {
     var x = (e.clientX + 20) + 'px',
-    y = (e.clientY + 20) + 'px';
- }
+      y = (e.clientY - 200) + 'px';
+  }
+  else {
+    var x = (e.clientX + 20) + 'px',
+      y = (e.clientY + 20) + 'px';
+  }
   for (var i = 0; i < tooltips18.length; i++) {
     tooltips18[i].style.top = y;
     tooltips18[i].style.left = x;
   };
-                                                        // dvadeseta
-                                                               var currentPosition = $('#tooltip19').offset().top;
+  // dvadeseta
+  var currentPosition = $('#tooltip19').offset().top;
 
-   var topYOffset = pageYOffset;
-   var bottomYOffset = pageYOffset + $(window).height();
+  var topYOffset = pageYOffset;
+  var bottomYOffset = pageYOffset + $(window).height();
 
-   var top = currentPosition - topYOffset;
-   var bottom = bottomYOffset - currentPosition;
+  var top = currentPosition - topYOffset;
+  var bottom = bottomYOffset - currentPosition;
 
- if (top > bottom) {
- var x = (e.clientX + 20) + 'px',
-    y = (e.clientY - 200) + 'px';
- }
- else {
+  if (top > bottom) {
     var x = (e.clientX + 20) + 'px',
-    y = (e.clientY + 20) + 'px';
- }
+      y = (e.clientY - 200) + 'px';
+  }
+  else {
+    var x = (e.clientX + 20) + 'px',
+      y = (e.clientY + 20) + 'px';
+  }
   for (var i = 0; i < tooltips19.length; i++) {
     tooltips19[i].style.top = y;
     tooltips19[i].style.left = x;
   };
-                                                            // dvaesprva
-                                                                   var currentPosition = $('#tooltip20').offset().top;
+  // dvaesprva
+  var currentPosition = $('#tooltip20').offset().top;
 
-   var topYOffset = pageYOffset;
-   var bottomYOffset = pageYOffset + $(window).height();
+  var topYOffset = pageYOffset;
+  var bottomYOffset = pageYOffset + $(window).height();
 
-   var top = currentPosition - topYOffset;
-   var bottom = bottomYOffset - currentPosition;
+  var top = currentPosition - topYOffset;
+  var bottom = bottomYOffset - currentPosition;
 
- if (top > bottom) {
- var x = (e.clientX + 20) + 'px',
-    y = (e.clientY - 200) + 'px';
- }
- else {
+  if (top > bottom) {
     var x = (e.clientX + 20) + 'px',
-    y = (e.clientY + 20) + 'px';
- }
+      y = (e.clientY - 200) + 'px';
+  }
+  else {
+    var x = (e.clientX + 20) + 'px',
+      y = (e.clientY + 20) + 'px';
+  }
   for (var i = 0; i < tooltips20.length; i++) {
     tooltips20[i].style.top = y;
     tooltips20[i].style.left = x;
   };
-                                                                // dvaesdruga
-                                                                       var currentPosition = $('#tooltip21').offset().top;
+  // dvaesdruga
+  var currentPosition = $('#tooltip21').offset().top;
 
-   var topYOffset = pageYOffset;
-   var bottomYOffset = pageYOffset + $(window).height();
+  var topYOffset = pageYOffset;
+  var bottomYOffset = pageYOffset + $(window).height();
 
-   var top = currentPosition - topYOffset;
-   var bottom = bottomYOffset - currentPosition;
+  var top = currentPosition - topYOffset;
+  var bottom = bottomYOffset - currentPosition;
 
- if (top > bottom) {
- var x = (e.clientX + 20) + 'px',
-    y = (e.clientY - 200) + 'px';
- }
- else {
+  if (top > bottom) {
     var x = (e.clientX + 20) + 'px',
-    y = (e.clientY + 20) + 'px';
- }
+      y = (e.clientY - 200) + 'px';
+  }
+  else {
+    var x = (e.clientX + 20) + 'px',
+      y = (e.clientY + 20) + 'px';
+  }
   for (var i = 0; i < tooltips21.length; i++) {
     tooltips21[i].style.top = y;
     tooltips21[i].style.left = x;
   };
-                                                             // dvaestreca
-                                                                       var currentPosition = $('#tooltip22').offset().top;
+  // dvaestreca
+  var currentPosition = $('#tooltip22').offset().top;
 
-   var topYOffset = pageYOffset;
-   var bottomYOffset = pageYOffset + $(window).height();
+  var topYOffset = pageYOffset;
+  var bottomYOffset = pageYOffset + $(window).height();
 
-   var top = currentPosition - topYOffset;
-   var bottom = bottomYOffset - currentPosition;
+  var top = currentPosition - topYOffset;
+  var bottom = bottomYOffset - currentPosition;
 
- if (top > bottom) {
- var x = (e.clientX + 20) + 'px',
-    y = (e.clientY - 200) + 'px';
- }
- else {
+  if (top > bottom) {
     var x = (e.clientX + 20) + 'px',
-    y = (e.clientY + 20) + 'px';
- }
+      y = (e.clientY - 200) + 'px';
+  }
+  else {
+    var x = (e.clientX + 20) + 'px',
+      y = (e.clientY + 20) + 'px';
+  }
   for (var i = 0; i < tooltips22.length; i++) {
     tooltips22[i].style.top = y;
     tooltips22[i].style.left = x;
   };
-                                                           // dvaescetvrta
-                                                                       var currentPosition = $('#tooltip23').offset().top;
+  // dvaescetvrta
+  var currentPosition = $('#tooltip23').offset().top;
 
-   var topYOffset = pageYOffset;
-   var bottomYOffset = pageYOffset + $(window).height();
+  var topYOffset = pageYOffset;
+  var bottomYOffset = pageYOffset + $(window).height();
 
-   var top = currentPosition - topYOffset;
-   var bottom = bottomYOffset - currentPosition;
+  var top = currentPosition - topYOffset;
+  var bottom = bottomYOffset - currentPosition;
 
- if (top > bottom) {
- var x = (e.clientX + 20) + 'px',
-    y = (e.clientY - 200) + 'px';
- }
- else {
+  if (top > bottom) {
     var x = (e.clientX + 20) + 'px',
-    y = (e.clientY + 20) + 'px';
- }
+      y = (e.clientY - 200) + 'px';
+  }
+  else {
+    var x = (e.clientX + 20) + 'px',
+      y = (e.clientY + 20) + 'px';
+  }
   for (var i = 0; i < tooltips23.length; i++) {
     tooltips23[i].style.top = y;
     tooltips23[i].style.left = x;
   };
-                                                           // dvaespeta
-                                                                       var currentPosition = $('#tooltip24').offset().top;
+  // dvaespeta
+  var currentPosition = $('#tooltip24').offset().top;
 
-   var topYOffset = pageYOffset;
-   var bottomYOffset = pageYOffset + $(window).height();
+  var topYOffset = pageYOffset;
+  var bottomYOffset = pageYOffset + $(window).height();
 
-   var top = currentPosition - topYOffset;
-   var bottom = bottomYOffset - currentPosition;
+  var top = currentPosition - topYOffset;
+  var bottom = bottomYOffset - currentPosition;
 
- if (top > bottom) {
- var x = (e.clientX + 20) + 'px',
-    y = (e.clientY - 200) + 'px';
- }
- else {
+  if (top > bottom) {
     var x = (e.clientX + 20) + 'px',
-    y = (e.clientY + 20) + 'px';
- }
+      y = (e.clientY - 200) + 'px';
+  }
+  else {
+    var x = (e.clientX + 20) + 'px',
+      y = (e.clientY + 20) + 'px';
+  }
   for (var i = 0; i < tooltips24.length; i++) {
     tooltips24[i].style.top = y;
     tooltips24[i].style.left = x;
   };
-                                                           // dvaessesta
-                                                                       var currentPosition = $('#tooltip25').offset().top;
+  // dvaessesta
+  var currentPosition = $('#tooltip25').offset().top;
 
-   var topYOffset = pageYOffset;
-   var bottomYOffset = pageYOffset + $(window).height();
+  var topYOffset = pageYOffset;
+  var bottomYOffset = pageYOffset + $(window).height();
 
-   var top = currentPosition - topYOffset;
-   var bottom = bottomYOffset - currentPosition;
+  var top = currentPosition - topYOffset;
+  var bottom = bottomYOffset - currentPosition;
 
- if (top > bottom) {
- var x = (e.clientX + 20) + 'px',
-    y = (e.clientY - 200) + 'px';
- }
- else {
+  if (top > bottom) {
     var x = (e.clientX + 20) + 'px',
-    y = (e.clientY + 20) + 'px';
- }
+      y = (e.clientY - 200) + 'px';
+  }
+  else {
+    var x = (e.clientX + 20) + 'px',
+      y = (e.clientY + 20) + 'px';
+  }
   for (var i = 0; i < tooltips25.length; i++) {
     tooltips25[i].style.top = y;
     tooltips25[i].style.left = x;
   };
-                                                             // dvaessedma
-                                                                       var currentPosition = $('#tooltip26').offset().top;
+  // dvaessedma
+  var currentPosition = $('#tooltip26').offset().top;
 
-   var topYOffset = pageYOffset;
-   var bottomYOffset = pageYOffset + $(window).height();
+  var topYOffset = pageYOffset;
+  var bottomYOffset = pageYOffset + $(window).height();
 
-   var top = currentPosition - topYOffset;
-   var bottom = bottomYOffset - currentPosition;
+  var top = currentPosition - topYOffset;
+  var bottom = bottomYOffset - currentPosition;
 
- if (top > bottom) {
- var x = (e.clientX + 20) + 'px',
-    y = (e.clientY - 200) + 'px';
- }
- else {
+  if (top > bottom) {
     var x = (e.clientX + 20) + 'px',
-    y = (e.clientY + 20) + 'px';
- }
+      y = (e.clientY - 200) + 'px';
+  }
+  else {
+    var x = (e.clientX + 20) + 'px',
+      y = (e.clientY + 20) + 'px';
+  }
   for (var i = 0; i < tooltips26.length; i++) {
     tooltips26[i].style.top = y;
     tooltips26[i].style.left = x;
   };
-                                                             // dvaesosma
-                                                                       var currentPosition = $('#tooltip27').offset().top;
+  // dvaesosma
+  var currentPosition = $('#tooltip27').offset().top;
 
-   var topYOffset = pageYOffset;
-   var bottomYOffset = pageYOffset + $(window).height();
+  var topYOffset = pageYOffset;
+  var bottomYOffset = pageYOffset + $(window).height();
 
-   var top = currentPosition - topYOffset;
-   var bottom = bottomYOffset - currentPosition;
+  var top = currentPosition - topYOffset;
+  var bottom = bottomYOffset - currentPosition;
 
- if (top > bottom) {
- var x = (e.clientX + 20) + 'px',
-    y = (e.clientY - 200) + 'px';
- }
- else {
+  if (top > bottom) {
     var x = (e.clientX + 20) + 'px',
-    y = (e.clientY + 20) + 'px';
- }
+      y = (e.clientY - 200) + 'px';
+  }
+  else {
+    var x = (e.clientX + 20) + 'px',
+      y = (e.clientY + 20) + 'px';
+  }
   for (var i = 0; i < tooltips27.length; i++) {
     tooltips27[i].style.top = y;
     tooltips27[i].style.left = x;
   };
-                                                             // dvaesdeveta
-                                                                       var currentPosition = $('#tooltip28').offset().top;
+  // dvaesdeveta
+  var currentPosition = $('#tooltip28').offset().top;
 
-   var topYOffset = pageYOffset;
-   var bottomYOffset = pageYOffset + $(window).height();
+  var topYOffset = pageYOffset;
+  var bottomYOffset = pageYOffset + $(window).height();
 
-   var top = currentPosition - topYOffset;
-   var bottom = bottomYOffset - currentPosition;
+  var top = currentPosition - topYOffset;
+  var bottom = bottomYOffset - currentPosition;
 
- if (top > bottom) {
- var x = (e.clientX + 20) + 'px',
-    y = (e.clientY - 200) + 'px';
- }
- else {
+  if (top > bottom) {
     var x = (e.clientX + 20) + 'px',
-    y = (e.clientY + 20) + 'px';
- }
+      y = (e.clientY - 200) + 'px';
+  }
+  else {
+    var x = (e.clientX + 20) + 'px',
+      y = (e.clientY + 20) + 'px';
+  }
   for (var i = 0; i < tooltips28.length; i++) {
     tooltips28[i].style.top = y;
     tooltips28[i].style.left = x;
   };
-                                                             // trideseta
-                                                                       var currentPosition = $('#tooltip29').offset().top;
+  // trideseta
+  var currentPosition = $('#tooltip29').offset().top;
 
-   var topYOffset = pageYOffset;
-   var bottomYOffset = pageYOffset + $(window).height();
+  var topYOffset = pageYOffset;
+  var bottomYOffset = pageYOffset + $(window).height();
 
-   var top = currentPosition - topYOffset;
-   var bottom = bottomYOffset - currentPosition;
+  var top = currentPosition - topYOffset;
+  var bottom = bottomYOffset - currentPosition;
 
- if (top > bottom) {
- var x = (e.clientX + 20) + 'px',
-    y = (e.clientY - 200) + 'px';
- }
- else {
+  if (top > bottom) {
     var x = (e.clientX + 20) + 'px',
-    y = (e.clientY + 20) + 'px';
- }
+      y = (e.clientY - 200) + 'px';
+  }
+  else {
+    var x = (e.clientX + 20) + 'px',
+      y = (e.clientY + 20) + 'px';
+  }
   for (var i = 0; i < tooltips29.length; i++) {
     tooltips29[i].style.top = y;
     tooltips29[i].style.left = x;
   };
-                                                             // triesprva
-                                                                       var currentPosition = $('#tooltip30').offset().top;
+  // triesprva
+  var currentPosition = $('#tooltip30').offset().top;
 
-   var topYOffset = pageYOffset;
-   var bottomYOffset = pageYOffset + $(window).height();
+  var topYOffset = pageYOffset;
+  var bottomYOffset = pageYOffset + $(window).height();
 
-   var top = currentPosition - topYOffset;
-   var bottom = bottomYOffset - currentPosition;
+  var top = currentPosition - topYOffset;
+  var bottom = bottomYOffset - currentPosition;
 
- if (top > bottom) {
- var x = (e.clientX + 20) + 'px',
-    y = (e.clientY - 200) + 'px';
- }
- else {
+  if (top > bottom) {
     var x = (e.clientX + 20) + 'px',
-    y = (e.clientY + 20) + 'px';
- }
+      y = (e.clientY - 200) + 'px';
+  }
+  else {
+    var x = (e.clientX + 20) + 'px',
+      y = (e.clientY + 20) + 'px';
+  }
   for (var i = 0; i < tooltips30.length; i++) {
     tooltips30[i].style.top = y;
     tooltips30[i].style.left = x;
   };
-                                                             // triesdruga
-                                                                       var currentPosition = $('#tooltip31').offset().top;
+  // triesdruga
+  var currentPosition = $('#tooltip31').offset().top;
 
-   var topYOffset = pageYOffset;
-   var bottomYOffset = pageYOffset + $(window).height();
+  var topYOffset = pageYOffset;
+  var bottomYOffset = pageYOffset + $(window).height();
 
-   var top = currentPosition - topYOffset;
-   var bottom = bottomYOffset - currentPosition;
+  var top = currentPosition - topYOffset;
+  var bottom = bottomYOffset - currentPosition;
 
- if (top > bottom) {
- var x = (e.clientX + 20) + 'px',
-    y = (e.clientY - 200) + 'px';
- }
- else {
+  if (top > bottom) {
     var x = (e.clientX + 20) + 'px',
-    y = (e.clientY + 20) + 'px';
- }
+      y = (e.clientY - 200) + 'px';
+  }
+  else {
+    var x = (e.clientX + 20) + 'px',
+      y = (e.clientY + 20) + 'px';
+  }
   for (var i = 0; i < tooltips31.length; i++) {
     tooltips31[i].style.top = y;
     tooltips31[i].style.left = x;
   };
-                                                             // triestreca
-                                                                       var currentPosition = $('#tooltip32').offset().top;
+  // triestreca
+  var currentPosition = $('#tooltip32').offset().top;
 
-   var topYOffset = pageYOffset;
-   var bottomYOffset = pageYOffset + $(window).height();
+  var topYOffset = pageYOffset;
+  var bottomYOffset = pageYOffset + $(window).height();
 
-   var top = currentPosition - topYOffset;
-   var bottom = bottomYOffset - currentPosition;
+  var top = currentPosition - topYOffset;
+  var bottom = bottomYOffset - currentPosition;
 
- if (top > bottom) {
- var x = (e.clientX + 20) + 'px',
-    y = (e.clientY - 200) + 'px';
- }
- else {
+  if (top > bottom) {
     var x = (e.clientX + 20) + 'px',
-    y = (e.clientY + 20) + 'px';
- }
+      y = (e.clientY - 200) + 'px';
+  }
+  else {
+    var x = (e.clientX + 20) + 'px',
+      y = (e.clientY + 20) + 'px';
+  }
   for (var i = 0; i < tooltips3.length; i++) {
     tooltips32[i].style.top = y;
     tooltips32[i].style.left = x;
@@ -958,18 +961,18 @@ window.onmousemove = function (e) {
 };
 
 
-$(window).on("load",function() {
-  $(window).scroll(function() {
+$(window).on("load", function () {
+  $(window).scroll(function () {
     var windowBottom = $(this).scrollTop() + $(this).innerHeight();
-    $(".col-md-12 , .col-md-10 , .col-md-2 , .col-md-7 , .col-md-4 , .col-md-5  ").each(function() {
+    $(".col-md-12 , .col-md-10 , .col-md-2 , .col-md-7 , .col-md-4 , .col-md-5  ").each(function () {
       /* Check the location of each desired element */
       var objectBottom = $(this).offset().top + $(this).outerHeight();
-      
+
       /* If the element is completely within bounds of the window, fade it in */
       if (objectBottom < windowBottom) { //object comes into view (scrolling down)
-        if ($(this).css("opacity")==0) {$(this).fadeTo(500,1);}
+        if ($(this).css("opacity") == 0) { $(this).fadeTo(500, 1); }
       } else { //object goes out of view (scrolling up)
-        if ($(this).css("opacity")==1) {$(this).fadeTo(500,0);}
+        if ($(this).css("opacity") == 1) { $(this).fadeTo(500, 0); }
       }
     });
   }).scroll(); //invoke scroll-handler on page-load
