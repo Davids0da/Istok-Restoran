@@ -1,3 +1,7 @@
+$(document).ready(function(){
+  $('body').addClass('loaded');
+});
+
 function initMap() {
   var myLatLng = { lat: 44.818857, lng: 20.462820 };
   var map = new google.maps.Map(document.getElementById('map'), {
@@ -970,3 +974,5 @@ $(window).on("load",function() {
     });
   }).scroll(); //invoke scroll-handler on page-load
 });
+
+
