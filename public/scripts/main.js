@@ -1,8 +1,8 @@
 $(document).ready(function () {
   setTimeout(function (){
-$('body').addClass('loaded');
+  $('body').addClass('loaded');
   $('h1').css('color', '#ffffff')
-}, 6000); 
+}, 5000); 
 });
 
 function initMap() {

@@ -63,10 +63,6 @@ body {
 #div1 {
     background:url('../images/background1.jpg') no-repeat center center;
     background-size: cover;
-     background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 h1, h2, h3, h4, h5, h6, p ,a{
     margin: 0;
@@ -111,10 +107,6 @@ h1, h2, h3, h4, h5, h6, p ,a{
 }
 #about{
     background:url('../images/background3.jpg') no-repeat center center;
-    background-size: cover;
-     background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
 }
 #textabowspoon {
@@ -162,10 +154,7 @@ h1, h2, h3, h4, h5, h6, p ,a{
 #contact {
     background:url('../images/background6.jpg') no-repeat center center;
     background-size: cover;
-     background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
 }
 .full-height{
     height: 800px;
@@ -997,3 +986,6 @@ h4, h5 { cursor: default; }
     .loaded .half-height , .full-height , .full-height-2 , #gallery {
         display: block
     }
+
+
+
