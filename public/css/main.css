@@ -29,7 +29,7 @@ body {
 }
 
 #footer-logo{
-    margin: 60px auto 0;
+    margin: 40px auto 0;
     width: 300px;
     height: 300px;
 }
@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5, h6, p ,a{
     margin-top: 100px;
 }
 .footertext {
-    margin-top: 120px;
+    margin-top: 95px;
 }
 .navbar {
 	margin-top: 100px;
@@ -102,15 +102,13 @@ h1, h2, h3, h4, h5, h6, p ,a{
     background-repeat: no-repeat;
     background-size: cover;
 }
-#about .text-center{
-    margin-top: 15%;
+#textabowspoon {
+    margin-top: 180px;
 }
 #spoon {
     margin-top: 100px;
     height: 80px;
     width: 200px;
-    -webkit-transition: -webkit-transform .8s ease-in-out;
-    transition:         transform .8s ease-in-out;
 }
 #textbelowspoon {
     margin-top: 100px;
@@ -119,17 +117,12 @@ h1, h2, h3, h4, h5, h6, p ,a{
     font-size: 70px;
 }
 #spoonvertical {
-    margin: 120px auto 0;
+    margin: 90px auto 0;
     height: 200px;
     width: 40px;
-    -webkit-transition: -webkit-transform .8s ease-in-out;
-    transition:         transform .8s ease-in-out;
-}
-#spoonvertical:hover, #spoon:hover {
-  -webkit-transform: rotate(360deg);
-  transform: rotate(360deg);
 
 }
+
 .navbar a {
     color: #ffffff;
     -webkit-transition: all 0.3s ease;
@@ -202,9 +195,10 @@ h1, h2, h3, h4, h5, h6, p ,a{
     .full-height {
         height: 50vh;
     }
-    #about .text-center{
-    margin-top: 20%;
-    }
+ #textabowspoon {
+    margin-top: 220px;
+}
+
     #footer-logo{
     margin-top: 200px;
         }
@@ -276,7 +270,7 @@ body {
       position: fixed;
   bottom: 0;
   left: 0;
-  z-index: 1000;
+  z-index: 999;
   width: 100%;
   height: 30px;
 }
@@ -304,6 +298,8 @@ body {
     overflow:hidden;
       z-index:1000;
       cursor: pointer;
+      padding: 0;
+      border-style: double;
 }
 
 
@@ -339,7 +335,483 @@ body {
     overflow:hidden;
       z-index:1000;
 }
+#tooltip2 {
+    text-decoration:none;
+    position:relative;
+}
+#tooltip2 span {
+    display:none;
+}
+#tooltip2:hover span {
+    display:block;
+    position:fixed;
+    overflow:hidden;
+      z-index:1000;
+}
+#tooltip3 {
+    text-decoration:none;
+    position:relative;
+}
+#tooltip3 span {
+    display:none;
+}
+#tooltip3:hover span {
+    display:block;
+    position:fixed;
+    overflow:hidden;
+      z-index:1000;
+}
+#tooltip4 {
+    text-decoration:none;
+    position:relative;
+}
+#tooltip4 span {
+    display:none;
+}
+#tooltip4:hover span {
+    display:block;
+    position:fixed;
+    overflow:hidden;
+      z-index:1000;
+}
+#tooltip5 {
+    text-decoration:none;
+    position:relative;
+}
+#tooltip5 span {
+    display:none;
+}
+#tooltip5:hover span {
+    display:block;
+    position:fixed;
+    overflow:hidden;
+      z-index:1000;
+}
+#tooltip6 {
+    text-decoration:none;
+    position:relative;
+}
+#tooltip6 span {
+    display:none;
+}
+#tooltip6:hover span {
+    display:block;
+    position:fixed;
+    overflow:hidden;
+      z-index:1000;
+}
+#tooltip7 {
+    text-decoration:none;
+    position:relative;
+}
+#tooltip7 span {
+    display:none;
+}
+#tooltip7:hover span {
+    display:block;
+    position:fixed;
+    overflow:hidden;
+      z-index:1000;
+}
+#tooltip8 {
+    text-decoration:none;
+    position:relative;
+}
+#tooltip8 span {
+    display:none;
+}
+#tooltip8:hover span {
+    display:block;
+    position:fixed;
+    overflow:hidden;
+      z-index:1000;
+}
+#tooltip9 {
+    text-decoration:none;
+    position:relative;
+}
+#tooltip9 span {
+    display:none;
+}
+#tooltip9:hover span {
+    display:block;
+    position:fixed;
+    overflow:hidden;
+      z-index:1000;
+}
+#tooltip10 {
+    text-decoration:none;
+    position:relative;
+}
+#tooltip10 span {
+    display:none;
+}
+#tooltip10:hover span {
+    display:block;
+    position:fixed;
+    overflow:hidden;
+      z-index:1000;
+}
+#tooltip11 {
+    text-decoration:none;
+    position:relative;
+}
+#tooltip11 span {
+    display:none;
+}
+#tooltip11:hover span {
+    display:block;
+    position:fixed;
+    overflow:hidden;
+      z-index:1000;
+}
+#tooltip12 {
+    text-decoration:none;
+    position:relative;
+}
+#tooltip12 span {
+    display:none;
+}
+#tooltip12:hover span {
+    display:block;
+    position:fixed;
+    overflow:hidden;
+      z-index:1000;
+}
+#tooltip13 {
+    text-decoration:none;
+    position:relative;
+}
+#tooltip13 span {
+    display:none;
+}
+#tooltip13:hover span {
+    display:block;
+    position:fixed;
+    overflow:hidden;
+      z-index:1000;
+}
+#tooltip14 {
+    text-decoration:none;
+    position:relative;
+}
+#tooltip14 span {
+    display:none;
+}
+#tooltip14:hover span {
+    display:block;
+    position:fixed;
+    overflow:hidden;
+      z-index:1000;
+}
+#tooltip15 {
+    text-decoration:none;
+    position:relative;
+}
+#tooltip15 span {
+    display:none;
+}
+#tooltip15:hover span {
+    display:block;
+    position:fixed;
+    overflow:hidden;
+      z-index:1000;
+}
+#tooltip16 {
+    text-decoration:none;
+    position:relative;
+}
+#tooltip16 span {
+    display:none;
+}
+#tooltip16:hover span {
+    display:block;
+    position:fixed;
+    overflow:hidden;
+      z-index:1000;
+}
+#tooltip17 {
+    text-decoration:none;
+    position:relative;
+}
+#tooltip17 span {
+    display:none;
+}
+#tooltip17:hover span {
+    display:block;
+    position:fixed;
+    overflow:hidden;
+      z-index:1000;
+}
+#tooltip18 {
+    text-decoration:none;
+    position:relative;
+}
+#tooltip18 span {
+    display:none;
+}
+#tooltip18:hover span {
+    display:block;
+    position:fixed;
+    overflow:hidden;
+      z-index:1000;
+}
+#tooltip19 {
+    text-decoration:none;
+    position:relative;
+}
+#tooltip19 span {
+    display:none;
+}
+#tooltip19:hover span {
+    display:block;
+    position:fixed;
+    overflow:hidden;
+      z-index:1000;
+}
+#tooltip20 {
+    text-decoration:none;
+    position:relative;
+}
+#tooltip20 span {
+    display:none;
+}
+#tooltip20:hover span {
+    display:block;
+    position:fixed;
+    overflow:hidden;
+      z-index:1000;
+}
+#tooltip21 {
+    text-decoration:none;
+    position:relative;
+}
+#tooltip21 span {
+    display:none;
+}
+#tooltip21:hover span {
+    display:block;
+    position:fixed;
+    overflow:hidden;
+      z-index:1000;
+}
+#tooltip22 {
+    text-decoration:none;
+    position:relative;
+}
+#tooltip22 span {
+    display:none;
+}
+#tooltip22:hover span {
+    display:block;
+    position:fixed;
+    overflow:hidden;
+      z-index:1000;
+}
+#tooltip23 {
+    text-decoration:none;
+    position:relative;
+}
+#tooltip23 span {
+    display:none;
+}
+#tooltip23:hover span {
+    display:block;
+    position:fixed;
+    overflow:hidden;
+      z-index:1000;
+}
+#tooltip24 {
+    text-decoration:none;
+    position:relative;
+}
+#tooltip24 span {
+    display:none;
+}
+#tooltip24:hover span {
+    display:block;
+    position:fixed;
+    overflow:hidden;
+      z-index:1000;
+}
+#tooltip25 {
+    text-decoration:none;
+    position:relative;
+}
+#tooltip25 span {
+    display:none;
+}
+#tooltip25:hover span {
+    display:block;
+    position:fixed;
+    overflow:hidden;
+      z-index:1000;
+}
+#tooltip26 {
+    text-decoration:none;
+    position:relative;
+}
+#tooltip26 span {
+    display:none;
+}
+#tooltip26:hover span {
+    display:block;
+    position:fixed;
+    overflow:hidden;
+      z-index:1000;
+}
+#tooltip27 {
+    text-decoration:none;
+    position:relative;
+}
+#tooltip27 span {
+    display:none;
+}
+#tooltip27:hover span {
+    display:block;
+    position:fixed;
+    overflow:hidden;
+      z-index:1000;
+}
+#tooltip28 {
+    text-decoration:none;
+    position:relative;
+}
+#tooltip28 span {
+    display:none;
+}
+#tooltip28:hover span {
+    display:block;
+    position:fixed;
+    overflow:hidden;
+      z-index:1000;
+}
+#tooltip29 {
+    text-decoration:none;
+    position:relative;
+}
+#tooltip29 span {
+    display:none;
+}
+#tooltip29:hover span {
+    display:block;
+    position:fixed;
+    overflow:hidden;
+      z-index:1000;
+}
+#tooltip30 {
+    text-decoration:none;
+    position:relative;
+}
+#tooltip30 span {
+    display:none;
+}
+#tooltip30:hover span {
+    display:block;
+    position:fixed;
+    overflow:hidden;
+      z-index:1000;
+}
+#tooltip31 {
+    text-decoration:none;
+    position:relative;
+}
+#tooltip31 span {
+    display:none;
+}
+#tooltip31:hover span {
+    display:block;
+    position:fixed;
+    overflow:hidden;
+      z-index:1000;
+}
+#tooltip32 {
+    text-decoration:none;
+    position:relative;
+}
+#tooltip32 span {
+    display:none;
+}
+#tooltip32:hover span {
+    display:block;
+    position:fixed;
+    overflow:hidden;
+      z-index:1000;
+}
+
 
 .margin-btm {
     margin-bottom: 80px;
 }
+
+#chopsticks {
+    width: 100px;
+    height: 100px;
+      -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(1800deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    margin-top: 35px;
+}
+#woodenplate {
+    width: 120px;
+    height: 100px;
+    margin-top: 35px;
+}
+
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(25px);
+    transform: translateY(25px);
+  }
+  60% {
+    -moz-transform: translateY(15px);
+    transform: translateY(15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(25px);
+    transform: translateY(25px);
+  }
+  60% {
+    -webkit-transform: translateY(15px);
+    transform: translateY(15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(25px);
+    -ms-transform: translateY(25px);
+    -webkit-transform: translateY(25px);
+    transform: translateY(25px);
+  }
+  60% {
+    -moz-transform: translateY(15px);
+    -ms-transform: translateY(15px);
+    -webkit-transform: translateY(15px);
+    transform: translateY(15px);
+  }
+}
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
