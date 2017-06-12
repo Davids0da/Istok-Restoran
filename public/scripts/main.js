@@ -182,10 +182,6 @@ function initMap() {
   var marker = new google.maps.Marker({
     position: myLatLng,
     map: map,
-    title: {
-      text: 'Vijetnamski Restoran Istok',
-      color: 'white'
-    },
   });
   var contentString =
     '<div id="bodyContent">' +
