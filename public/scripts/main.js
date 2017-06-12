@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$('body').ready(function(){
   $('body').addClass('loaded');
 });
 
