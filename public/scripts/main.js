@@ -2,7 +2,7 @@ $(document).ready(function () {
   setTimeout(function (){
 $('body').addClass('loaded');
   $('h1').css('color', '#ffffff')
-}, 4000); 
+}, 5000); 
 });
 
 function initMap() {
