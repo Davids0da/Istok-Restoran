@@ -263,6 +263,8 @@ section, .menu {
 }
 
 
+
+
 @media screen and (max-width: 990px) {
     body {
        
@@ -998,10 +1000,6 @@ h4, h5 { cursor: default; }
                 transition: all 0.3s ease-out;
     }
 
-#logo {
-content:url('../images/logo1.png');
-}
 
-#istoknatpis {
-content:url('../images/istok.png');
-}
+
+  
