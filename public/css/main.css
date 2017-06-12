@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5, h6, p ,a{
     margin-top: 180px;
 }
 .headertext2 {
-    margin-top: 100px;
+    margin-top:  60px;
 }
 .footertext {
     margin-top: 95px;
@@ -114,7 +114,7 @@ h1, h2, h3, h4, h5, h6, p ,a{
     margin-top: 100px;
 }
 #istoktextsize {
-    font-size: 70px;
+    
 }
 #spoonvertical {
     margin: 90px auto 0;
@@ -815,3 +815,23 @@ body {
   animation: bounce 2s infinite;
 }
 
+h4, h5 { cursor: default; }
+
+#text {
+    width: 50%;
+}
+
+#headertext3 {
+    margin-top: 30px;
+}
+
+#chop {
+        width: 100px;
+  margin-top: 40px;
+  margin-bottom: -50px;
+      -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
