@@ -106,8 +106,8 @@ h1, h2, h3, h4, h5, h6, p ,a{
     background-color:rgba(76, 69, 70, 0.8);
     background-size: cover;
     overflow: hidden;
-    
-     display:table;
+    display: none;
+     
 }
 #about{
     background:url('../images/background3.jpg') no-repeat center center;
@@ -178,9 +178,6 @@ h1, h2, h3, h4, h5, h6, p ,a{
 .half-height{
     height: 400px;
     
-}
-.full-height , .half-height , .full-height-2 , #meni , #gallery {
-display: none;
 }
 
 
@@ -993,6 +990,10 @@ h4, h5 { cursor: default; }
                 transition: all 0.3s ease-out;
     }
 
-    .loaded .full-height , .half-height , .full-height-2 , #meni , #gallery {
-display: block;
-}
+    .loaded #meni {
+        display:table;
+    }
+
+    .loaded .half-height , .full-height , .full-height-2 , #gallery {
+        display: block
+    }
