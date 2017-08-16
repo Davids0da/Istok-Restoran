@@ -323,7 +323,7 @@ section, .menu {
 #tooltip span {
     display:none;
 }
-#tooltip:hover span {
+#tooltip4:hover span , #tooltip2:hover span  , #tooltip19:hover span , #tooltip20:hover span , #tooltip21:hover span , #tooltip18:hover span , #tooltip15:hover span , #tooltip17:hover span , #tooltip16:hover span, #tooltip13:hover span , #tooltip14:hover span ,  #tooltip12:hover span  , #tooltip10:hover span  ,  #tooltip11:hover span , #tooltip8:hover span , #tooltip9:hover span , #tooltip1:hover span ,  #tooltip3:hover span , #tooltip6:hover span , #tooltip22:hover span , #tooltip23:hover span , #tooltip24:hover span {
     display:block;
     position:fixed;
     overflow:hidden;
@@ -1002,6 +1002,10 @@ h4, h5 { cursor: default; }
                 transition: all 0.3s ease-out;
     }
 
+.horizontal-images { 
+    width: 500px;
+}
 
-
-  
+.vertical-images { 
+    width: 250px;
+}
