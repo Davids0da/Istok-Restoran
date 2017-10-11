@@ -419,7 +419,7 @@ window.onmousemove = function (e) {
 
   if (top > bottom) {
     var x = (e.clientX + 20) + 'px',
-      y = (e.clientY - 200) + 'px';
+      y = (e.clientY - 340) + 'px';
   }
   else {
     var x = (e.clientX + 20) + 'px',
