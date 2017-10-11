@@ -1063,6 +1063,7 @@ else {
     tooltips24[i].style.left = x;
   };
 }
+
   
   
   
