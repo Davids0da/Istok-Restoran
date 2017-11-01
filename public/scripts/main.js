@@ -5,6 +5,21 @@ $(document).ready(function () {
 }, 5000); 
 });
 
+var images = new Array()
+function preload() {
+    for (i = 0; i < preload.arguments.length; i++) {
+        images[i] = new Image()
+        images[i].src = preload.arguments[i]
+    }
+}
+preload(
+    "images/background7.jpg",
+    "images/background5.jpg",
+    "images/background1.jpg",
+    "images/background3.jpg",
+    "images/background2.jpg"
+)
+
 function initMap() {
   var myLatLng = { lat: 44.818857, lng: 20.462820 };
   var map = new google.maps.Map(document.getElementById('map'), {
