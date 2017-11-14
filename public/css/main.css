@@ -101,7 +101,7 @@ h1, h2, h3, h4, h5, h6, p ,a{
     margin-top:  60px;
 }
 .footertext {
-    margin-top: 95px;
+    margin-top: 40px;
 }
 .navbar {
 	margin-top: 100px;
@@ -199,7 +199,7 @@ h1, h2, h3, h4, h5, h6, p ,a{
 
 #footertext {
     color: white;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .social-icons img {
@@ -241,13 +241,13 @@ h1, h2, h3, h4, h5, h6, p ,a{
     height: 500px;
 }
 #contact {
-    height: 600px;
+    height: 750px;
 }
     #spoonvertical {
     margin-top: 260px;
     }
     #footertext {
-    margin-top: 250px;
+    margin-top: 150px;
     font-size: 30px;
     } 
     }
