@@ -1,23 +1,23 @@
 $(document).ready(function () {
-  setTimeout(function (){
-  $('body').addClass('loaded');
-  $('h1').css('color', '#ffffff')
-}, 5000); 
+  setTimeout(function () {
+    $('body').addClass('loaded');
+    $('h1').css('color', '#ffffff')
+  }, 5000);
 });
 
 var images = new Array()
 function preload() {
-    for (i = 0; i < preload.arguments.length; i++) {
-        images[i] = new Image()
-        images[i].src = preload.arguments[i]
-    }
+  for (i = 0; i < preload.arguments.length; i++) {
+    images[i] = new Image()
+    images[i].src = preload.arguments[i]
+  }
 }
 preload(
-    "images/background7.jpg",
-    "images/background5.jpg",
-    "images/background1.jpg",
-    "images/background3.jpg",
-    "images/background2.jpg"
+  "images/background7.jpg",
+  "images/background5.jpg",
+  "images/background1.jpg",
+  "images/background3.jpg",
+  "images/background2.jpg"
 )
 
 function initMap() {
@@ -279,7 +279,7 @@ window.onmousemove = function (e) {
   var top = currentPosition - topYOffset;
   var bottom = bottomYOffset - currentPosition;
   var width1 = $(window).width();
-  
+
 
   if (top > bottom) {
     var x = (e.clientX + 20) + 'px',
@@ -518,7 +518,7 @@ window.onmousemove = function (e) {
 
   if (top > bottom) {
     var x = (e.clientX + 20) + 'px',
-      y = (e.clientY - 350 ) + 'px';
+      y = (e.clientY - 350) + 'px';
   }
   else {
     var x = (e.clientX + 20) + 'px',
@@ -528,560 +528,578 @@ window.onmousemove = function (e) {
     tooltips11[i].style.top = y;
     tooltips11[i].style.left = x;
   };
+    // dvaespeta
+    var currentPosition = $('#tooltip25').offset().top;
+    
+      var topYOffset = pageYOffset;
+      var bottomYOffset = pageYOffset + $(window).height();
+    
+      var top = currentPosition - topYOffset;
+      var bottom = bottomYOffset - currentPosition;
+    
+      if (top > bottom) {
+        var x = (e.clientX + 20) + 'px',
+          y = (e.clientY - 350) + 'px';
+      }
+      else {
+        var x = (e.clientX + 20) + 'px',
+          y = (e.clientY + 20) + 'px';
+      }
+      for (var i = 0; i < tooltips25.length; i++) {
+        tooltips25[i].style.top = y;
+        tooltips25[i].style.left = x;
+      };
 
-   // trinaesta
+  // trinaesta
   if (width1 > 999) {
     var currentPosition = $('#tooltip12').offset().top;
 
-  var topYOffset = pageYOffset;
-  var bottomYOffset = pageYOffset + $(window).height();
+    var topYOffset = pageYOffset;
+    var bottomYOffset = pageYOffset + $(window).height();
 
-  var top = currentPosition - topYOffset;
-  var bottom = bottomYOffset - currentPosition;
+    var top = currentPosition - topYOffset;
+    var bottom = bottomYOffset - currentPosition;
 
-  if (top > bottom) {
-    var x = (e.clientX - 510) + 'px',
-      y = (e.clientY - 400 ) + 'px';
+    if (top > bottom) {
+      var x = (e.clientX - 510) + 'px',
+        y = (e.clientY - 400) + 'px';
+    }
+    else {
+      var x = (e.clientX - 510) + 'px',
+        y = (e.clientY + 20) + 'px';
+    }
+    for (var i = 0; i < tooltips12.length; i++) {
+      tooltips12[i].style.top = y;
+      tooltips12[i].style.left = x;
+    };
+    // cetrnaesta
+    var currentPosition = $('#tooltip13').offset().top;
+
+    var topYOffset = pageYOffset;
+    var bottomYOffset = pageYOffset + $(window).height();
+
+    var top = currentPosition - topYOffset;
+    var bottom = bottomYOffset - currentPosition;
+
+    if (top > bottom) {
+      var x = (e.clientX - 260) + 'px',
+        y = (e.clientY - 390) + 'px';
+    }
+    else {
+      var x = (e.clientX - 260) + 'px',
+        y = (e.clientY + 20) + 'px';
+    }
+    for (var i = 0; i < tooltips13.length; i++) {
+      tooltips13[i].style.top = y;
+      tooltips13[i].style.left = x;
+    };
+    // petnaesta
+    var currentPosition = $('#tooltip14').offset().top;
+
+    var topYOffset = pageYOffset;
+    var bottomYOffset = pageYOffset + $(window).height();
+
+    var top = currentPosition - topYOffset;
+    var bottom = bottomYOffset - currentPosition;
+
+    if (top > bottom) {
+      var x = (e.clientX - 260) + 'px',
+        y = (e.clientY - 320) + 'px';
+    }
+    else {
+      var x = (e.clientX - 260) + 'px',
+        y = (e.clientY + 20) + 'px';
+    }
+    for (var i = 0; i < tooltips14.length; i++) {
+      tooltips14[i].style.top = y;
+      tooltips14[i].style.left = x;
+    };
+    // sesnaesta
+    var currentPosition = $('#tooltip15').offset().top;
+
+    var topYOffset = pageYOffset;
+    var bottomYOffset = pageYOffset + $(window).height();
+
+    var top = currentPosition - topYOffset;
+    var bottom = bottomYOffset - currentPosition;
+
+    if (top > bottom) {
+      var x = (e.clientX - 510) + 'px',
+        y = (e.clientY - 350) + 'px';
+    }
+    else {
+      var x = (e.clientX - 510) + 'px',
+        y = (e.clientY + 20) + 'px';
+    }
+    for (var i = 0; i < tooltips15.length; i++) {
+      tooltips15[i].style.top = y;
+      tooltips15[i].style.left = x;
+    };
+    // sedamnaesta
+    var currentPosition = $('#tooltip16').offset().top;
+
+    var topYOffset = pageYOffset;
+    var bottomYOffset = pageYOffset + $(window).height();
+
+    var top = currentPosition - topYOffset;
+    var bottom = bottomYOffset - currentPosition;
+
+    if (top > bottom) {
+      var x = (e.clientX - 510) + 'px',
+        y = (e.clientY - 370) + 'px';
+    }
+    else {
+      var x = (e.clientX - 510) + 'px',
+        y = (e.clientY + 20) + 'px';
+    }
+    for (var i = 0; i < tooltips16.length; i++) {
+      tooltips16[i].style.top = y;
+      tooltips16[i].style.left = x;
+    };
+    // osamnaesta
+    var currentPosition = $('#tooltip17').offset().top;
+
+    var topYOffset = pageYOffset;
+    var bottomYOffset = pageYOffset + $(window).height();
+
+    var top = currentPosition - topYOffset;
+    var bottom = bottomYOffset - currentPosition;
+
+    if (top > bottom) {
+      var x = (e.clientX - 260) + 'px',
+        y = (e.clientY - 320) + 'px';
+    }
+    else {
+      var x = (e.clientX - 260) + 'px',
+        y = (e.clientY + 20) + 'px';
+    }
+    for (var i = 0; i < tooltips17.length; i++) {
+      tooltips17[i].style.top = y;
+      tooltips17[i].style.left = x;
+    };
+    // devetnaesta
+    var currentPosition = $('#tooltip18').offset().top;
+
+    var topYOffset = pageYOffset;
+    var bottomYOffset = pageYOffset + $(window).height();
+
+    var top = currentPosition - topYOffset;
+    var bottom = bottomYOffset - currentPosition;
+
+    if (top > bottom) {
+      var x = (e.clientX - 510) + 'px',
+        y = (e.clientY - 350) + 'px';
+    }
+    else {
+      var x = (e.clientX - 510) + 'px',
+        y = (e.clientY + 20) + 'px';
+    }
+    for (var i = 0; i < tooltips18.length; i++) {
+      tooltips18[i].style.top = y;
+      tooltips18[i].style.left = x;
+    };
+    // dvadeseta
+    var currentPosition = $('#tooltip19').offset().top;
+
+    var topYOffset = pageYOffset;
+    var bottomYOffset = pageYOffset + $(window).height();
+
+    var top = currentPosition - topYOffset;
+    var bottom = bottomYOffset - currentPosition;
+
+    if (top > bottom) {
+      var x = (e.clientX - 510) + 'px',
+        y = (e.clientY - 350) + 'px';
+    }
+    else {
+      var x = (e.clientX - 510) + 'px',
+        y = (e.clientY + 20) + 'px';
+    }
+    for (var i = 0; i < tooltips19.length; i++) {
+      tooltips19[i].style.top = y;
+      tooltips19[i].style.left = x;
+    };
+    // dvadesetprva
+    var currentPosition = $('#tooltip20').offset().top;
+
+    var topYOffset = pageYOffset;
+    var bottomYOffset = pageYOffset + $(window).height();
+
+    var top = currentPosition - topYOffset;
+    var bottom = bottomYOffset - currentPosition;
+
+    if (top > bottom) {
+      var x = (e.clientX - 510) + 'px',
+        y = (e.clientY - 425) + 'px';
+    }
+    else {
+      var x = (e.clientX - 510) + 'px',
+        y = (e.clientY + 20) + 'px';
+    }
+    for (var i = 0; i < tooltips20.length; i++) {
+      tooltips20[i].style.top = y;
+      tooltips20[i].style.left = x;
+    };
+    // dvadesetdruga
+    var currentPosition = $('#tooltip21').offset().top;
+
+    var topYOffset = pageYOffset;
+    var bottomYOffset = pageYOffset + $(window).height();
+
+    var top = currentPosition - topYOffset;
+    var bottom = bottomYOffset - currentPosition;
+
+    if (top > bottom) {
+      var x = (e.clientX - 510) + 'px',
+        y = (e.clientY - 350) + 'px';
+    }
+    else {
+      var x = (e.clientX - 510) + 'px',
+        y = (e.clientY + 20) + 'px';
+    }
+    for (var i = 0; i < tooltips21.length; i++) {
+      tooltips21[i].style.top = y;
+      tooltips21[i].style.left = x;
+    };
+    // dvadesettreca
+    var currentPosition = $('#tooltip22').offset().top;
+
+    var topYOffset = pageYOffset;
+    var bottomYOffset = pageYOffset + $(window).height();
+
+    var top = currentPosition - topYOffset;
+    var bottom = bottomYOffset - currentPosition;
+
+    if (top > bottom) {
+      var x = (e.clientX - 510) + 'px',
+        y = (e.clientY - 350) + 'px';
+    }
+    else {
+      var x = (e.clientX - 510) + 'px',
+        y = (e.clientY + 20) + 'px';
+    }
+    for (var i = 0; i < tooltips22.length; i++) {
+      tooltips22[i].style.top = y;
+      tooltips22[i].style.left = x;
+    };
+    // dvadesetcetvrta
+    var currentPosition = $('#tooltip23').offset().top;
+
+    var topYOffset = pageYOffset;
+    var bottomYOffset = pageYOffset + $(window).height();
+
+    var top = currentPosition - topYOffset;
+    var bottom = bottomYOffset - currentPosition;
+
+    if (top > bottom) {
+      var x = (e.clientX - 510) + 'px',
+        y = (e.clientY - 350) + 'px';
+    }
+    else {
+      var x = (e.clientX - 510) + 'px',
+        y = (e.clientY + 20) + 'px';
+    }
+    for (var i = 0; i < tooltips23.length; i++) {
+      tooltips23[i].style.top = y;
+      tooltips23[i].style.left = x;
+    };
+    // dvadesetcetvrta
+    var currentPosition = $('#tooltip24').offset().top;
+
+    var topYOffset = pageYOffset;
+    var bottomYOffset = pageYOffset + $(window).height();
+
+    var top = currentPosition - topYOffset;
+    var bottom = bottomYOffset - currentPosition;
+
+    if (top > bottom) {
+      var x = (e.clientX - 510) + 'px',
+        y = (e.clientY - 350) + 'px';
+    }
+    else {
+      var x = (e.clientX - 510) + 'px',
+        y = (e.clientY + 20) + 'px';
+    }
+    for (var i = 0; i < tooltips24.length; i++) {
+      tooltips24[i].style.top = y;
+      tooltips24[i].style.left = x;
+    };
   }
   else {
-    var x = (e.clientX - 510) + 'px',
-      y = (e.clientY + 20) + 'px';
+    var currentPosition = $('#tooltip12').offset().top;
+
+    var topYOffset = pageYOffset;
+    var bottomYOffset = pageYOffset + $(window).height();
+
+    var top = currentPosition - topYOffset;
+    var bottom = bottomYOffset - currentPosition;
+
+    if (top > bottom) {
+      var x = (e.clientX + 20) + 'px',
+        y = (e.clientY + 400) + 'px';
+    }
+    else {
+      var x = (e.clientX + 20) + 'px',
+        y = (e.clientY + 20) + 'px';
+    }
+    for (var i = 0; i < tooltips12.length; i++) {
+      tooltips12[i].style.top = y;
+      tooltips12[i].style.left = x;
+    };
+    // cetrnaesta
+    var currentPosition = $('#tooltip13').offset().top;
+
+    var topYOffset = pageYOffset;
+    var bottomYOffset = pageYOffset + $(window).height();
+
+    var top = currentPosition - topYOffset;
+    var bottom = bottomYOffset - currentPosition;
+
+    if (top > bottom) {
+      var x = (e.clientX + 20) + 'px',
+        y = (e.clientY + 390) + 'px';
+    }
+    else {
+      var x = (e.clientX + 20) + 'px',
+        y = (e.clientY + 20) + 'px';
+    }
+    for (var i = 0; i < tooltips13.length; i++) {
+      tooltips13[i].style.top = y;
+      tooltips13[i].style.left = x;
+    };
+    // petnaesta
+    var currentPosition = $('#tooltip14').offset().top;
+
+    var topYOffset = pageYOffset;
+    var bottomYOffset = pageYOffset + $(window).height();
+
+    var top = currentPosition - topYOffset;
+    var bottom = bottomYOffset - currentPosition;
+
+    if (top > bottom) {
+      var x = (e.clientX + 20) + 'px',
+        y = (e.clientY + 320) + 'px';
+    }
+    else {
+      var x = (e.clientX + 20) + 'px',
+        y = (e.clientY + 20) + 'px';
+    }
+    for (var i = 0; i < tooltips14.length; i++) {
+      tooltips14[i].style.top = y;
+      tooltips14[i].style.left = x;
+    };
+    // sesnaesta
+    var currentPosition = $('#tooltip15').offset().top;
+
+    var topYOffset = pageYOffset;
+    var bottomYOffset = pageYOffset + $(window).height();
+
+    var top = currentPosition - topYOffset;
+    var bottom = bottomYOffset - currentPosition;
+
+    if (top > bottom) {
+      var x = (e.clientX + 20) + 'px',
+        y = (e.clientY + 350) + 'px';
+    }
+    else {
+      var x = (e.clientX + 20) + 'px',
+        y = (e.clientY + 20) + 'px';
+    }
+    for (var i = 0; i < tooltips15.length; i++) {
+      tooltips15[i].style.top = y;
+      tooltips15[i].style.left = x;
+    };
+    // sedamnaesta
+    var currentPosition = $('#tooltip16').offset().top;
+
+    var topYOffset = pageYOffset;
+    var bottomYOffset = pageYOffset + $(window).height();
+
+    var top = currentPosition - topYOffset;
+    var bottom = bottomYOffset - currentPosition;
+
+    if (top > bottom) {
+      var x = (e.clientX + 20) + 'px',
+        y = (e.clientY + 370) + 'px';
+    }
+    else {
+      var x = (e.clientX + 20) + 'px',
+        y = (e.clientY + 20) + 'px';
+    }
+    for (var i = 0; i < tooltips16.length; i++) {
+      tooltips16[i].style.top = y;
+      tooltips16[i].style.left = x;
+    };
+    // osamnaesta
+    var currentPosition = $('#tooltip17').offset().top;
+
+    var topYOffset = pageYOffset;
+    var bottomYOffset = pageYOffset + $(window).height();
+
+    var top = currentPosition - topYOffset;
+    var bottom = bottomYOffset - currentPosition;
+
+    if (top > bottom) {
+      var x = (e.clientX + 20) + 'px',
+        y = (e.clientY + 320) + 'px';
+    }
+    else {
+      var x = (e.clientX + 20) + 'px',
+        y = (e.clientY + 20) + 'px';
+    }
+    for (var i = 0; i < tooltips17.length; i++) {
+      tooltips17[i].style.top = y;
+      tooltips17[i].style.left = x;
+    };
+    // devetnaesta
+    var currentPosition = $('#tooltip18').offset().top;
+
+    var topYOffset = pageYOffset;
+    var bottomYOffset = pageYOffset + $(window).height();
+
+    var top = currentPosition - topYOffset;
+    var bottom = bottomYOffset - currentPosition;
+
+    if (top > bottom) {
+      var x = (e.clientX + 20) + 'px',
+        y = (e.clientY + 350) + 'px';
+    }
+    else {
+      var x = (e.clientX + 20) + 'px',
+        y = (e.clientY + 20) + 'px';
+    }
+    for (var i = 0; i < tooltips18.length; i++) {
+      tooltips18[i].style.top = y;
+      tooltips18[i].style.left = x;
+    };
+    // dvadeseta
+    var currentPosition = $('#tooltip19').offset().top;
+
+    var topYOffset = pageYOffset;
+    var bottomYOffset = pageYOffset + $(window).height();
+
+    var top = currentPosition - topYOffset;
+    var bottom = bottomYOffset - currentPosition;
+
+    if (top > bottom) {
+      var x = (e.clientX + 20) + 'px',
+        y = (e.clientY + 350) + 'px';
+    }
+    else {
+      var x = (e.clientX + 20) + 'px',
+        y = (e.clientY + 20) + 'px';
+    }
+    for (var i = 0; i < tooltips19.length; i++) {
+      tooltips19[i].style.top = y;
+      tooltips19[i].style.left = x;
+    };
+    // dvadesetprva
+    var currentPosition = $('#tooltip20').offset().top;
+
+    var topYOffset = pageYOffset;
+    var bottomYOffset = pageYOffset + $(window).height();
+
+    var top = currentPosition - topYOffset;
+    var bottom = bottomYOffset - currentPosition;
+
+    if (top > bottom) {
+      var x = (e.clientX + 20) + 'px',
+        y = (e.clientY + 425) + 'px';
+    }
+    else {
+      var x = (e.clientX + 20) + 'px',
+        y = (e.clientY + 20) + 'px';
+    }
+    for (var i = 0; i < tooltips20.length; i++) {
+      tooltips20[i].style.top = y;
+      tooltips20[i].style.left = x;
+    };
+    // dvadesetdruga
+    var currentPosition = $('#tooltip21').offset().top;
+
+    var topYOffset = pageYOffset;
+    var bottomYOffset = pageYOffset + $(window).height();
+
+    var top = currentPosition - topYOffset;
+    var bottom = bottomYOffset - currentPosition;
+
+    if (top > bottom) {
+      var x = (e.clientX + 20) + 'px',
+        y = (e.clientY + 350) + 'px';
+    }
+    else {
+      var x = (e.clientX + 20) + 'px',
+        y = (e.clientY + 20) + 'px';
+    }
+    for (var i = 0; i < tooltips21.length; i++) {
+      tooltips21[i].style.top = y;
+      tooltips21[i].style.left = x;
+    };
+    // dvadesettreca
+    var currentPosition = $('#tooltip22').offset().top;
+
+    var topYOffset = pageYOffset;
+    var bottomYOffset = pageYOffset + $(window).height();
+
+    var top = currentPosition - topYOffset;
+    var bottom = bottomYOffset - currentPosition;
+
+    if (top > bottom) {
+      var x = (e.clientX + 20) + 'px',
+        y = (e.clientY + 350) + 'px';
+    }
+    else {
+      var x = (e.clientX + 20) + 'px',
+        y = (e.clientY + 20) + 'px';
+    }
+    for (var i = 0; i < tooltips22.length; i++) {
+      tooltips22[i].style.top = y;
+      tooltips22[i].style.left = x;
+    };
+    // dvadesetcetvrta
+    var currentPosition = $('#tooltip23').offset().top;
+
+    var topYOffset = pageYOffset;
+    var bottomYOffset = pageYOffset + $(window).height();
+
+    var top = currentPosition - topYOffset;
+    var bottom = bottomYOffset - currentPosition;
+
+    if (top > bottom) {
+      var x = (e.clientX + 20) + 'px',
+        y = (e.clientY + 350) + 'px';
+    }
+    else {
+      var x = (e.clientX + 20) + 'px',
+        y = (e.clientY + 20) + 'px';
+    }
+    for (var i = 0; i < tooltips23.length; i++) {
+      tooltips23[i].style.top = y;
+      tooltips23[i].style.left = x;
+    };
+    // dvadesetcetvrta
+    var currentPosition = $('#tooltip24').offset().top;
+
+    var topYOffset = pageYOffset;
+    var bottomYOffset = pageYOffset + $(window).height();
+
+    var top = currentPosition - topYOffset;
+    var bottom = bottomYOffset - currentPosition;
+
+    if (top > bottom) {
+      var x = (e.clientX + 20) + 'px',
+        y = (e.clientY + 350) + 'px';
+    }
+    else {
+      var x = (e.clientX + 20) + 'px',
+        y = (e.clientY + 20) + 'px';
+    }
+    for (var i = 0; i < tooltips24.length; i++) {
+      tooltips24[i].style.top = y;
+      tooltips24[i].style.left = x;
+    };
   }
-  for (var i = 0; i < tooltips12.length; i++) {
-    tooltips12[i].style.top = y;
-    tooltips12[i].style.left = x;
-  };
-     // cetrnaesta
-  var currentPosition = $('#tooltip13').offset().top;
 
-  var topYOffset = pageYOffset;
-  var bottomYOffset = pageYOffset + $(window).height();
-
-  var top = currentPosition - topYOffset;
-  var bottom = bottomYOffset - currentPosition;
-
-  if (top > bottom) {
-    var x = (e.clientX - 260) + 'px',
-      y = (e.clientY - 390 ) + 'px';
-  }
-  else {
-    var x = (e.clientX - 260) + 'px',
-      y = (e.clientY + 20) + 'px';
-  }
-  for (var i = 0; i < tooltips13.length; i++) {
-    tooltips13[i].style.top = y;
-    tooltips13[i].style.left = x;
-  };
-       // petnaesta
-  var currentPosition = $('#tooltip14').offset().top;
-
-  var topYOffset = pageYOffset;
-  var bottomYOffset = pageYOffset + $(window).height();
-
-  var top = currentPosition - topYOffset;
-  var bottom = bottomYOffset - currentPosition;
-
-  if (top > bottom) {
-    var x = (e.clientX - 260) + 'px',
-      y = (e.clientY - 320 ) + 'px';
-  }
-  else {
-    var x = (e.clientX - 260) + 'px',
-      y = (e.clientY + 20) + 'px';
-  }
-  for (var i = 0; i < tooltips14.length; i++) {
-    tooltips14[i].style.top = y;
-    tooltips14[i].style.left = x;
-  };
-         // sesnaesta
-  var currentPosition = $('#tooltip15').offset().top;
-
-  var topYOffset = pageYOffset;
-  var bottomYOffset = pageYOffset + $(window).height();
-
-  var top = currentPosition - topYOffset;
-  var bottom = bottomYOffset - currentPosition;
-
-  if (top > bottom) {
-    var x = (e.clientX - 510) + 'px',
-      y = (e.clientY - 350 ) + 'px';
-  }
-  else {
-    var x = (e.clientX - 510) + 'px',
-      y = (e.clientY + 20) + 'px';
-  }
-  for (var i = 0; i < tooltips15.length; i++) {
-    tooltips15[i].style.top = y;
-    tooltips15[i].style.left = x;
-  };
-           // sedamnaesta
-  var currentPosition = $('#tooltip16').offset().top;
-
-  var topYOffset = pageYOffset;
-  var bottomYOffset = pageYOffset + $(window).height();
-
-  var top = currentPosition - topYOffset;
-  var bottom = bottomYOffset - currentPosition;
-
-  if (top > bottom) {
-    var x = (e.clientX - 510) + 'px',
-      y = (e.clientY - 370 ) + 'px';
-  }
-  else {
-    var x = (e.clientX - 510) + 'px',
-      y = (e.clientY + 20) + 'px';
-  }
-  for (var i = 0; i < tooltips16.length; i++) {
-    tooltips16[i].style.top = y;
-    tooltips16[i].style.left = x;
-  };
-         // osamnaesta
-  var currentPosition = $('#tooltip17').offset().top;
-
-  var topYOffset = pageYOffset;
-  var bottomYOffset = pageYOffset + $(window).height();
-
-  var top = currentPosition - topYOffset;
-  var bottom = bottomYOffset - currentPosition;
-
-  if (top > bottom) {
-    var x = (e.clientX - 260) + 'px',
-      y = (e.clientY - 320 ) + 'px';
-  }
-  else {
-    var x = (e.clientX - 260) + 'px',
-      y = (e.clientY + 20) + 'px';
-  }
-  for (var i = 0; i < tooltips17.length; i++) {
-    tooltips17[i].style.top = y;
-    tooltips17[i].style.left = x;
-  };
-           // devetnaesta
-  var currentPosition = $('#tooltip18').offset().top;
-
-  var topYOffset = pageYOffset;
-  var bottomYOffset = pageYOffset + $(window).height();
-
-  var top = currentPosition - topYOffset;
-  var bottom = bottomYOffset - currentPosition;
-
-  if (top > bottom) {
-    var x = (e.clientX - 510) + 'px',
-      y = (e.clientY - 350 ) + 'px';
-  }
-  else {
-    var x = (e.clientX - 510) + 'px',
-      y = (e.clientY + 20) + 'px';
-  }
-  for (var i = 0; i < tooltips18.length; i++) {
-    tooltips18[i].style.top = y;
-    tooltips18[i].style.left = x;
-  };
-             // dvadeseta
-  var currentPosition = $('#tooltip19').offset().top;
-
-  var topYOffset = pageYOffset;
-  var bottomYOffset = pageYOffset + $(window).height();
-
-  var top = currentPosition - topYOffset;
-  var bottom = bottomYOffset - currentPosition;
-
-  if (top > bottom) {
-    var x = (e.clientX - 510) + 'px',
-      y = (e.clientY - 350 ) + 'px';
-  }
-  else {
-    var x = (e.clientX - 510) + 'px',
-      y = (e.clientY + 20) + 'px';
-  }
-  for (var i = 0; i < tooltips19.length; i++) {
-    tooltips19[i].style.top = y;
-    tooltips19[i].style.left = x;
-  };
-               // dvadesetprva
-  var currentPosition = $('#tooltip20').offset().top;
-
-  var topYOffset = pageYOffset;
-  var bottomYOffset = pageYOffset + $(window).height();
-
-  var top = currentPosition - topYOffset;
-  var bottom = bottomYOffset - currentPosition;
-
-  if (top > bottom) {
-    var x = (e.clientX - 510) + 'px',
-      y = (e.clientY - 425 ) + 'px';
-  }
-  else {
-    var x = (e.clientX - 510) + 'px',
-      y = (e.clientY + 20) + 'px';
-  }
-  for (var i = 0; i < tooltips20.length; i++) {
-    tooltips20[i].style.top = y;
-    tooltips20[i].style.left = x;
-  };
-               // dvadesetdruga
-  var currentPosition = $('#tooltip21').offset().top;
-
-  var topYOffset = pageYOffset;
-  var bottomYOffset = pageYOffset + $(window).height();
-
-  var top = currentPosition - topYOffset;
-  var bottom = bottomYOffset - currentPosition;
-
-  if (top > bottom) {
-    var x = (e.clientX - 510) + 'px',
-      y = (e.clientY - 350 ) + 'px';
-  }
-  else {
-    var x = (e.clientX - 510) + 'px',
-      y = (e.clientY + 20) + 'px';
-  }
-  for (var i = 0; i < tooltips21.length; i++) {
-    tooltips21[i].style.top = y;
-    tooltips21[i].style.left = x;
-  };
-                 // dvadesettreca
-  var currentPosition = $('#tooltip22').offset().top;
-
-  var topYOffset = pageYOffset;
-  var bottomYOffset = pageYOffset + $(window).height();
-
-  var top = currentPosition - topYOffset;
-  var bottom = bottomYOffset - currentPosition;
-
-  if (top > bottom) {
-    var x = (e.clientX - 510) + 'px',
-      y = (e.clientY - 350 ) + 'px';
-  }
-  else {
-    var x = (e.clientX - 510) + 'px',
-      y = (e.clientY + 20) + 'px';
-  }
-  for (var i = 0; i < tooltips22.length; i++) {
-    tooltips22[i].style.top = y;
-    tooltips22[i].style.left = x;
-  };
-                   // dvadesetcetvrta
-  var currentPosition = $('#tooltip23').offset().top;
-
-  var topYOffset = pageYOffset;
-  var bottomYOffset = pageYOffset + $(window).height();
-
-  var top = currentPosition - topYOffset;
-  var bottom = bottomYOffset - currentPosition;
-
-  if (top > bottom) {
-    var x = (e.clientX - 510) + 'px',
-      y = (e.clientY - 350 ) + 'px';
-  }
-  else {
-    var x = (e.clientX - 510) + 'px',
-      y = (e.clientY + 20) + 'px';
-  }
-  for (var i = 0; i < tooltips23.length; i++) {
-    tooltips23[i].style.top = y;
-    tooltips23[i].style.left = x;
-  };
-                     // dvadesetcetvrta
-  var currentPosition = $('#tooltip24').offset().top;
-
-  var topYOffset = pageYOffset;
-  var bottomYOffset = pageYOffset + $(window).height();
-
-  var top = currentPosition - topYOffset;
-  var bottom = bottomYOffset - currentPosition;
-
-  if (top > bottom) {
-    var x = (e.clientX - 510) + 'px',
-      y = (e.clientY - 350 ) + 'px';
-  }
-  else {
-    var x = (e.clientX - 510) + 'px',
-      y = (e.clientY + 20) + 'px';
-  }
-  for (var i = 0; i < tooltips24.length; i++) {
-    tooltips24[i].style.top = y;
-    tooltips24[i].style.left = x;
-  };
-  }
-else {
-  var currentPosition = $('#tooltip12').offset().top;
-
-  var topYOffset = pageYOffset;
-  var bottomYOffset = pageYOffset + $(window).height();
-
-  var top = currentPosition - topYOffset;
-  var bottom = bottomYOffset - currentPosition;
-
-  if (top > bottom) {
-    var x = (e.clientX + 20) + 'px',
-      y = (e.clientY + 400 ) + 'px';
-  }
-  else {
-    var x = (e.clientX + 20) + 'px',
-      y = (e.clientY + 20) + 'px';
-  }
-  for (var i = 0; i < tooltips12.length; i++) {
-    tooltips12[i].style.top = y;
-    tooltips12[i].style.left = x;
-  };
-     // cetrnaesta
-  var currentPosition = $('#tooltip13').offset().top;
-
-  var topYOffset = pageYOffset;
-  var bottomYOffset = pageYOffset + $(window).height();
-
-  var top = currentPosition - topYOffset;
-  var bottom = bottomYOffset - currentPosition;
-
-  if (top > bottom) {
-    var x = (e.clientX + 20) + 'px',
-      y = (e.clientY + 390 ) + 'px';
-  }
-  else {
-    var x = (e.clientX + 20) + 'px',
-      y = (e.clientY + 20) + 'px';
-  }
-  for (var i = 0; i < tooltips13.length; i++) {
-    tooltips13[i].style.top = y;
-    tooltips13[i].style.left = x;
-  };
-       // petnaesta
-  var currentPosition = $('#tooltip14').offset().top;
-
-  var topYOffset = pageYOffset;
-  var bottomYOffset = pageYOffset + $(window).height();
-
-  var top = currentPosition - topYOffset;
-  var bottom = bottomYOffset - currentPosition;
-
-  if (top > bottom) {
-    var x = (e.clientX + 20) + 'px',
-      y = (e.clientY + 320 ) + 'px';
-  }
-  else {
-    var x = (e.clientX + 20) + 'px',
-      y = (e.clientY + 20) + 'px';
-  }
-  for (var i = 0; i < tooltips14.length; i++) {
-    tooltips14[i].style.top = y;
-    tooltips14[i].style.left = x;
-  };
-         // sesnaesta
-  var currentPosition = $('#tooltip15').offset().top;
-
-  var topYOffset = pageYOffset;
-  var bottomYOffset = pageYOffset + $(window).height();
-
-  var top = currentPosition - topYOffset;
-  var bottom = bottomYOffset - currentPosition;
-
-  if (top > bottom) {
-    var x = (e.clientX + 20) + 'px',
-      y = (e.clientY + 350 ) + 'px';
-  }
-  else {
-    var x = (e.clientX + 20) + 'px',
-      y = (e.clientY + 20) + 'px';
-  }
-  for (var i = 0; i < tooltips15.length; i++) {
-    tooltips15[i].style.top = y;
-    tooltips15[i].style.left = x;
-  };
-           // sedamnaesta
-  var currentPosition = $('#tooltip16').offset().top;
-
-  var topYOffset = pageYOffset;
-  var bottomYOffset = pageYOffset + $(window).height();
-
-  var top = currentPosition - topYOffset;
-  var bottom = bottomYOffset - currentPosition;
-
-  if (top > bottom) {
-    var x = (e.clientX + 20) + 'px',
-      y = (e.clientY + 370 ) + 'px';
-  }
-  else {
-    var x = (e.clientX + 20) + 'px',
-      y = (e.clientY + 20) + 'px';
-  }
-  for (var i = 0; i < tooltips16.length; i++) {
-    tooltips16[i].style.top = y;
-    tooltips16[i].style.left = x;
-  };
-         // osamnaesta
-  var currentPosition = $('#tooltip17').offset().top;
-
-  var topYOffset = pageYOffset;
-  var bottomYOffset = pageYOffset + $(window).height();
-
-  var top = currentPosition - topYOffset;
-  var bottom = bottomYOffset - currentPosition;
-
-  if (top > bottom) {
-    var x = (e.clientX + 20) + 'px',
-      y = (e.clientY + 320 ) + 'px';
-  }
-  else {
-    var x = (e.clientX + 20) + 'px',
-      y = (e.clientY + 20) + 'px';
-  }
-  for (var i = 0; i < tooltips17.length; i++) {
-    tooltips17[i].style.top = y;
-    tooltips17[i].style.left = x;
-  };
-           // devetnaesta
-  var currentPosition = $('#tooltip18').offset().top;
-
-  var topYOffset = pageYOffset;
-  var bottomYOffset = pageYOffset + $(window).height();
-
-  var top = currentPosition - topYOffset;
-  var bottom = bottomYOffset - currentPosition;
-
-  if (top > bottom) {
-    var x = (e.clientX + 20) + 'px',
-      y = (e.clientY + 350 ) + 'px';
-  }
-  else {
-    var x = (e.clientX + 20) + 'px',
-      y = (e.clientY + 20) + 'px';
-  }
-  for (var i = 0; i < tooltips18.length; i++) {
-    tooltips18[i].style.top = y;
-    tooltips18[i].style.left = x;
-  };
-             // dvadeseta
-  var currentPosition = $('#tooltip19').offset().top;
-
-  var topYOffset = pageYOffset;
-  var bottomYOffset = pageYOffset + $(window).height();
-
-  var top = currentPosition - topYOffset;
-  var bottom = bottomYOffset - currentPosition;
-
-  if (top > bottom) {
-    var x = (e.clientX + 20) + 'px',
-      y = (e.clientY + 350 ) + 'px';
-  }
-  else {
-    var x = (e.clientX + 20) + 'px',
-      y = (e.clientY + 20) + 'px';
-  }
-  for (var i = 0; i < tooltips19.length; i++) {
-    tooltips19[i].style.top = y;
-    tooltips19[i].style.left = x;
-  };
-               // dvadesetprva
-  var currentPosition = $('#tooltip20').offset().top;
-
-  var topYOffset = pageYOffset;
-  var bottomYOffset = pageYOffset + $(window).height();
-
-  var top = currentPosition - topYOffset;
-  var bottom = bottomYOffset - currentPosition;
-
-  if (top > bottom) {
-    var x = (e.clientX + 20) + 'px',
-      y = (e.clientY + 425 ) + 'px';
-  }
-  else {
-    var x = (e.clientX  + 20) + 'px',
-      y = (e.clientY + 20) + 'px';
-  }
-  for (var i = 0; i < tooltips20.length; i++) {
-    tooltips20[i].style.top = y;
-    tooltips20[i].style.left = x;
-  };
-               // dvadesetdruga
-  var currentPosition = $('#tooltip21').offset().top;
-
-  var topYOffset = pageYOffset;
-  var bottomYOffset = pageYOffset + $(window).height();
-
-  var top = currentPosition - topYOffset;
-  var bottom = bottomYOffset - currentPosition;
-
-  if (top > bottom) {
-    var x = (e.clientX + 20) + 'px',
-      y = (e.clientY + 350 ) + 'px';
-  }
-  else {
-    var x = (e.clientX + 20) + 'px',
-      y = (e.clientY + 20) + 'px';
-  }
-  for (var i = 0; i < tooltips21.length; i++) {
-    tooltips21[i].style.top = y;
-    tooltips21[i].style.left = x;
-  };
-                 // dvadesettreca
-  var currentPosition = $('#tooltip22').offset().top;
-
-  var topYOffset = pageYOffset;
-  var bottomYOffset = pageYOffset + $(window).height();
-
-  var top = currentPosition - topYOffset;
-  var bottom = bottomYOffset - currentPosition;
-
-  if (top > bottom) {
-    var x = (e.clientX + 20) + 'px',
-      y = (e.clientY + 350 ) + 'px';
-  }
-  else {
-    var x = (e.clientX + 20) + 'px',
-      y = (e.clientY + 20) + 'px';
-  }
-  for (var i = 0; i < tooltips22.length; i++) {
-    tooltips22[i].style.top = y;
-    tooltips22[i].style.left = x;
-  };
-                   // dvadesetcetvrta
-  var currentPosition = $('#tooltip23').offset().top;
-
-  var topYOffset = pageYOffset;
-  var bottomYOffset = pageYOffset + $(window).height();
-
-  var top = currentPosition - topYOffset;
-  var bottom = bottomYOffset - currentPosition;
-
-  if (top > bottom) {
-    var x = (e.clientX + 20) + 'px',
-      y = (e.clientY + 350 ) + 'px';
-  }
-  else {
-    var x = (e.clientX + 20) + 'px',
-      y = (e.clientY + 20) + 'px';
-  }
-  for (var i = 0; i < tooltips23.length; i++) {
-    tooltips23[i].style.top = y;
-    tooltips23[i].style.left = x;
-  };
-                     // dvadesetcetvrta
-  var currentPosition = $('#tooltip24').offset().top;
-
-  var topYOffset = pageYOffset;
-  var bottomYOffset = pageYOffset + $(window).height();
-
-  var top = currentPosition - topYOffset;
-  var bottom = bottomYOffset - currentPosition;
-
-  if (top > bottom) {
-    var x = (e.clientX + 20) + 'px',
-      y = (e.clientY + 350 ) + 'px';
-  }
-  else {
-    var x = (e.clientX + 20) + 'px',
-      y = (e.clientY + 20) + 'px';
-  }
-  for (var i = 0; i < tooltips24.length; i++) {
-    tooltips24[i].style.top = y;
-    tooltips24[i].style.left = x;
-  };
-}
-
-  
-  
-  
 };
 
 
